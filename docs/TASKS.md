@@ -1,7 +1,7 @@
 # TASKS
 
 ## Current task
-M1.3 — 手機 UI / accessibility 驗收，並以 CI 完成 typecheck 與 production build。
+M1.4 — 部署前整體 review；完成後建立 Vercel 專案與 preview deployment。
 
 ## Done
 - M0.1 Next.js/TypeScript 手機版骨架
@@ -15,13 +15,14 @@ M1.3 — 手機 UI / accessibility 驗收，並以 CI 完成 typecheck 與 produ
 - M1.2 10 個 topic 逐項重新核對教育部現行規範
 - M1.2 修正「手機／物品」為第31點所定有條件暫時保管
 - M1.2 資料 schema / source validation tests：3/3 passed
+- M1.3 375px 手機版：表單提交、44px 觸控目標、focus-visible、結果 aria-live、來源網址防溢出
+- M1.3 GitHub Actions：Install / Data tests / Typecheck / Production build 全部 PASS
 
-## Current validation status
-- `npm test`: PASS（3/3）
-- `npm install`: 此 ChatGPT 執行環境逾時，未完成依賴安裝
-- `npm run typecheck` / `npm run build`: 等待 GitHub Actions 或可安裝依賴的環境驗證
+## Validation
+Latest successful CI head: `403327200259fb93c51e06e889d86a0f184fa7aa`
 
 ## Next
-- M1.3 GitHub Actions typecheck / production build
-- M1.3 375px 手機 UI 與 accessibility
-- M1.4 Vercel project / preview deployment
+- M1.4 PR 整體 review
+- M1.4 建立／連結 Vercel project
+- M1.4 preview deployment + browser verification
+- M1.5 完成後由使用者決定是否 merge PR #1
