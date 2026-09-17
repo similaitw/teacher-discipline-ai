@@ -2,8 +2,11 @@
 
 import {FormEvent, useState} from 'react';
 import {AnswerCard} from '@/components/AnswerCard';
-import {allTopics,searchTopic} from '@/lib/search';
+import {moreTopics,quickTopics,searchTopic} from '@/lib/search';
 import type {Topic} from '@/lib/types';
+
+const topicLabel=(title:string)=>
+  title.replace(/^可以/,'').replace(/嗎？$/,'').replace(/？$/,'');
 
 export default function Page(){
   const [q,setQ]=useState('');
@@ -47,18 +50,37 @@ export default function Page(){
         <button type="submit" disabled={!q.trim()}>查詢</button>
       </form>
 
-      <div className="chips" role="group" aria-label="常見管教問題">
-        {allTopics.map(t=>
-          <button
-            type="button"
-            className="chip"
-            onClick={()=>run(t.title)}
-            key={t.id}
-          >
-            {t.title.replace('可以','').replace('嗎？','')}
-          </button>
-        )}
+      <div className="quick-section">
+        <p className="section-label">常用情境</p>
+        <div className="chips" role="group" aria-label="常用管教問題">
+          {quickTopics.map(t=>
+            <button
+              type="button"
+              className="chip"
+              onClick={()=>run(t.title)}
+              key={t.id}
+            >
+              {topicLabel(t.title)}
+            </button>
+          )}
+        </div>
       </div>
+
+      <details className="more-topics">
+        <summary>更多常見情境（{moreTopics.length}）</summary>
+        <div className="chips" role="group" aria-label="更多管教問題">
+          {moreTopics.map(t=>
+            <button
+              type="button"
+              className="chip secondary"
+              onClick={()=>run(t.title)}
+              key={t.id}
+            >
+              {topicLabel(t.title)}
+            </button>
+          )}
+        </div>
+      </details>
     </section>
 
     <div aria-live="polite" aria-atomic="true">
@@ -74,8 +96,8 @@ export default function Page(){
 
     <footer className="site-footer">
       <p>
-        全國法規核心：教育部《學校訂定教師輔導與管教學生辦法注意事項》（2024-02-05）
-        與《國民小學及國民中學學生獎懲準則》（2024-04-30）。
+        全國法規核心：教育部《學校訂定教師輔導與管教學生辦法注意事項》（2024-02-05）、
+        《國民小學及國民中學學生獎懲準則》（2024-04-30）與《教師法施行細則》。
       </p>
       <p>資料最後驗證：2026-09-18。宜蘭縣地方來源仍持續補正官方全文。</p>
       <p><strong>提醒：</strong>本工具協助快速查詢，不取代正式獎懲、霸凌認定、通報或法律程序。</p>
