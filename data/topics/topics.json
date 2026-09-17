@@ -47,7 +47,9 @@
         "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
         "lastVerified": "2026-09-18"
       }
-    ]
+    ],
+    "category": "daily",
+    "quick": true
   },
   {
     "id": "recess",
@@ -86,7 +88,9 @@
         "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
         "lastVerified": "2026-09-18"
       }
-    ]
+    ],
+    "category": "daily",
+    "quick": true
   },
   {
     "id": "lunch-break",
@@ -133,7 +137,9 @@
         "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
         "lastVerified": "2026-09-18"
       }
-    ]
+    ],
+    "category": "daily",
+    "quick": true
   },
   {
     "id": "homework",
@@ -179,7 +185,9 @@
         "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
         "lastVerified": "2026-09-18"
       }
-    ]
+    ],
+    "category": "daily",
+    "quick": true
   },
   {
     "id": "phone-property",
@@ -222,7 +230,9 @@
         "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
         "lastVerified": "2026-09-18"
       }
-    ]
+    ],
+    "category": "daily",
+    "quick": true
   },
   {
     "id": "verbal",
@@ -271,7 +281,9 @@
         "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
         "lastVerified": "2026-09-18"
       }
-    ]
+    ],
+    "category": "rights",
+    "quick": true
   },
   {
     "id": "corporal-punishment",
@@ -325,7 +337,9 @@
         "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
         "lastVerified": "2026-09-18"
       }
-    ]
+    ],
+    "category": "rights",
+    "quick": true
   },
   {
     "id": "physical-contact",
@@ -366,7 +380,9 @@
         "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
         "lastVerified": "2026-09-18"
       }
-    ]
+    ],
+    "category": "safety",
+    "quick": true
   },
   {
     "id": "student-fight",
@@ -409,7 +425,9 @@
         "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
         "lastVerified": "2026-09-18"
       }
-    ]
+    ],
+    "category": "safety",
+    "quick": true
   },
   {
     "id": "privacy",
@@ -457,7 +475,9 @@
         "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002265",
         "lastVerified": "2026-09-18"
       }
-    ]
+    ],
+    "category": "rights",
+    "quick": true
   },
   {
     "id": "bullying",
@@ -493,6 +513,413 @@
         "authority": "教育部",
         "document": "學校訂定教師輔導與管教學生辦法注意事項",
         "section": "第37點及校園霸凌防制相關規範",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ],
+    "category": "safety",
+    "quick": true
+  },
+  {
+    "id": "collective-punishment",
+    "category": "rights",
+    "quick": true,
+    "title": "可以一人犯錯，全班一起受罰嗎？",
+    "risk": "red",
+    "shortAnswer": "不可以因個人或少數學生的行為，處罰其他學生或全班。",
+    "keywords": [
+      "全班一起",
+      "全班受罰",
+      "連坐",
+      "集體處罰",
+      "一人犯錯",
+      "全班留下",
+      "全班罰站",
+      "全班處罰"
+    ],
+    "principles": [
+      "禁止連坐",
+      "個別責任",
+      "比例原則"
+    ],
+    "canDo": [
+      "針對實際違規學生個別處理",
+      "若是全班共同發生的行為，可依每位學生實際行為與情節處理"
+    ],
+    "avoid": [
+      "因一人或少數人違規要求全班罰站、抄寫或留下",
+      "用『找不到是誰』作為處罰全班的理由"
+    ],
+    "alternatives": [
+      "先釐清事實與個別責任",
+      "用班級討論或正向班級經營取代連坐處罰"
+    ],
+    "reason": "教育部注意事項第14點明定，不得因個人或少數人之行為而處罰其他或全體學生。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第14點第6款",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "apology-reflection",
+    "category": "daily",
+    "quick": false,
+    "title": "可以要求學生道歉或寫反省嗎？",
+    "risk": "green",
+    "shortAnswer": "原則上可以。口頭道歉或書面自省是教育部列舉的一般管教措施之一，但仍須符合教育目的、比例與人格尊嚴。",
+    "keywords": [
+      "道歉",
+      "寫反省",
+      "反省單",
+      "自省",
+      "悔過書",
+      "檢討書"
+    ],
+    "principles": [
+      "教育目的",
+      "比例原則",
+      "人格尊嚴"
+    ],
+    "canDo": [
+      "要求口頭道歉或書面自省",
+      "讓學生說明事件、影響與下一步改進"
+    ],
+    "avoid": [
+      "強迫寫大量重複文字作為羞辱或報復",
+      "要求公開做與事件無關的羞辱式道歉"
+    ],
+    "alternatives": [
+      "修復式對話",
+      "事件反思表",
+      "私下向受影響者說明與修復"
+    ],
+    "reason": "教育部注意事項第23點第4款明列『要求口頭道歉或書面自省』為一般管教措施。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第23點第4款",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "classroom-separation",
+    "category": "daily",
+    "quick": false,
+    "title": "可以讓學生在教室角落暫時分開嗎？",
+    "risk": "yellow",
+    "shortAnswer": "有條件可以。可在教學場所一隅暫時讓學生與其他同學保持適當距離，但以兩堂課為限。",
+    "keywords": [
+      "教室角落",
+      "坐角落",
+      "隔離座位",
+      "分開坐",
+      "暫時隔開",
+      "離開同學"
+    ],
+    "principles": [
+      "時間上限",
+      "受教育權",
+      "比例原則"
+    ],
+    "canDo": [
+      "在教學場所內安排適當位置保持距離",
+      "最長以兩堂課為限",
+      "持續讓學生參與可行的學習活動"
+    ],
+    "avoid": [
+      "把學生長時間排除於教學活動外",
+      "把『角落』做成公開羞辱區"
+    ],
+    "alternatives": [
+      "調整座位",
+      "短時間靜坐反省",
+      "必要時尋求學務或輔導處協助"
+    ],
+    "reason": "教育部注意事項第23點第14款明列此措施，並設定兩堂課上限。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第23點第14款",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "temporary-other-class",
+    "category": "daily",
+    "quick": false,
+    "title": "可以把學生暫時送到別班上課嗎？",
+    "risk": "yellow",
+    "shortAnswer": "有條件可以。經其他教師同意，可在行為發生當日暫時轉送其他班級學習。",
+    "keywords": [
+      "送別班",
+      "去別班",
+      "換班上課",
+      "暫時轉班",
+      "別班學習",
+      "轉送其他班"
+    ],
+    "principles": [
+      "教師同意",
+      "限行為當日",
+      "持續學習"
+    ],
+    "canDo": [
+      "先取得接收教師同意",
+      "限於行為發生當日的暫時學習安排",
+      "確保學生仍有實質學習活動"
+    ],
+    "avoid": [
+      "未與接收教師協調就直接把學生丟到別班",
+      "把暫時轉送變成長期排除原班"
+    ],
+    "alternatives": [
+      "教室內調整座位",
+      "請學務或輔導處協助"
+    ],
+    "reason": "教育部注意事項第23點第15款明列，經其他教師同意，於行為當日得暫時轉送其他班級學習。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第23點第15款",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "remove-from-scene",
+    "category": "escalation",
+    "quick": true,
+    "title": "學生一直干擾上課，可以請學務處帶離嗎？",
+    "risk": "yellow",
+    "shortAnswer": "可以在一般管教無效或學生明顯不服管教、已妨害現場活動時，請學務處或輔導處派員協助帶離；不是教師隨意把學生趕出教室。",
+    "keywords": [
+      "學務處帶走",
+      "學務處帶離",
+      "帶離教室",
+      "趕出教室",
+      "叫學務處",
+      "一直干擾上課",
+      "不服管教"
+    ],
+    "principles": [
+      "先一般管教",
+      "行政協助",
+      "受教育權"
+    ],
+    "canDo": [
+      "先採一般管教措施並保留必要紀錄",
+      "一般管教無效且已妨害現場活動時，請學務或輔導處派員協助",
+      "有危害生命身體之虞時依規定處理急迫風險"
+    ],
+    "avoid": [
+      "把『趕出去』當成日常處罰",
+      "未安排後續場所或輔導就讓學生無人照管"
+    ],
+    "alternatives": [
+      "教室內調整座位",
+      "短時間分隔",
+      "暫送其他班學習（須符合條件）"
+    ],
+    "reason": "教育部注意事項第25點規定，一般管教無效或學生明顯不服管教並妨害現場活動時，教師得要求學務處或輔導處派員協助帶離。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第25點",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "after-school-retention",
+    "category": "daily",
+    "quick": false,
+    "title": "可以放學後把學生留下來嗎？",
+    "risk": "yellow",
+    "shortAnswer": "若是留置於課後輔導或參加輔導課程，須先取得法定代理人或實際照顧者同意。不能把無期限留校當成一般處罰。",
+    "keywords": [
+      "放學留下",
+      "課後留下",
+      "留校",
+      "放學不能走",
+      "課後輔導",
+      "留到放學後"
+    ],
+    "principles": [
+      "家長同意",
+      "時間合理",
+      "安全交接"
+    ],
+    "canDo": [
+      "取得法定代理人或實際照顧者同意後安排課後輔導或輔導課程",
+      "明確告知時間、目的與返家安排"
+    ],
+    "avoid": [
+      "未經同意任意延後學生返家",
+      "以不確定時間的留校作為威嚇或報復"
+    ],
+    "alternatives": [
+      "利用合理課餘時間處理",
+      "通知家長共同協助",
+      "改採其他一般管教措施"
+    ],
+    "reason": "教育部注意事項第23點第11款對課後留置明定須經法定代理人或實際照顧者同意。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第23點第11款",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "extracurricular-restriction",
+    "category": "daily",
+    "quick": false,
+    "title": "可以限制學生參加社團、比賽或非正式課程活動嗎？",
+    "risk": "yellow",
+    "shortAnswer": "教育部允許限制參加『正式課程以外』的學校活動作為一般管教措施；但不能因此完全剝奪學生受教育權。",
+    "keywords": [
+      "不能參加社團",
+      "禁止社團",
+      "不能比賽",
+      "取消活動",
+      "不能參加活動",
+      "校外教學",
+      "正式課程以外"
+    ],
+    "principles": [
+      "非正式課程活動",
+      "比例原則",
+      "受教育權"
+    ],
+    "canDo": [
+      "確認該活動確屬正式課程以外",
+      "依違規情節採取相當且有教育目的的限制"
+    ],
+    "avoid": [
+      "用此措施剝奪正式課程",
+      "限制程度與違規情節顯不相當"
+    ],
+    "alternatives": [
+      "縮短或調整參與方式",
+      "改採其他一般管教措施"
+    ],
+    "reason": "教育部注意事項第23點第10款列有『限制參加正式課程以外之學校活動』；第14點並要求不應完全剝奪受教育權。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第23點第10款、第14點第7款",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "safety-search",
+    "category": "safety",
+    "quick": true,
+    "title": "老師可以搜學生書包、抽屜或身體嗎？",
+    "risk": "red",
+    "shortAnswer": "不能把翻書包或搜身當作一般管教。校園安全檢查須符合教育部第29、30點所列的安全條件與程序，並由學務處依學校規定進行。",
+    "keywords": [
+      "搜書包",
+      "翻書包",
+      "檢查書包",
+      "搜身",
+      "檢查身體",
+      "翻抽屜",
+      "搜抽屜",
+      "置物櫃",
+      "安全檢查"
+    ],
+    "principles": [
+      "身體自主",
+      "安全必要性",
+      "程序保障",
+      "保密"
+    ],
+    "canDo": [
+      "有符合第29點的校園安全風險時，立即通知學務處依規定評估與處理",
+      "依規定由學校指定人員進行必要安全檢查",
+      "依法全程錄影、記錄並保密"
+    ],
+    "avoid": [
+      "教師因一般違規或好奇自行搜身、翻書包或上鎖置物櫃",
+      "把找手機、找作業等一般班級管理需求當作安全檢查"
+    ],
+    "alternatives": [
+      "請學生自行出示或整理物品（仍須尊重權利）",
+      "交由學務處依安全檢查規定處理"
+    ],
+    "reason": "教育部注意事項第29點限定可進行安全檢查的情形；第30點要求由學務處依校內規定、指定二人以上、全程錄影並保存紀錄等程序。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第29、30點",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "low-achievement",
+    "category": "rights",
+    "quick": false,
+    "title": "學生只是成績差，可以處罰嗎？",
+    "risk": "red",
+    "shortAnswer": "如果只是學業成就偏低，且沒有其他應管教的違法或不當行為，應找原因並輔導，不得因成績差採取處罰措施。",
+    "keywords": [
+      "成績差",
+      "考太差",
+      "不及格",
+      "低分",
+      "學業成就低",
+      "考試沒考好",
+      "成績不好"
+    ],
+    "principles": [
+      "不得因低成就處罰",
+      "學習輔導",
+      "個別原因"
+    ],
+    "canDo": [
+      "了解學習能力、動機、方法、情緒與生活因素",
+      "採鼓勵、說理、通知家長、補救教學等方式"
+    ],
+    "avoid": [
+      "因考低分罰站、罰寫或其他處罰",
+      "把學習困難直接視為違規"
+    ],
+    "alternatives": [
+      "補救教學",
+      "學習策略輔導",
+      "必要時轉介輔導資源"
+    ],
+    "reason": "教育部注意事項第20點明定，單純學業成就偏低而無第21點違規行為者，不得採取處罰措施。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第20點",
         "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
         "lastVerified": "2026-09-18"
       }
