@@ -25,6 +25,9 @@ jobs:
       - name: Data tests
         run: npm test
 
+      - name: Lint
+        run: npm run lint
+
       - name: Typecheck
         run: npm run typecheck
 
