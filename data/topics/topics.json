@@ -90,7 +90,7 @@
       }
     ],
     "category": "daily",
-    "quick": true
+    "quick": false
   },
   {
     "id": "lunch-break",
@@ -187,7 +187,7 @@
       }
     ],
     "category": "daily",
-    "quick": true
+    "quick": false
   },
   {
     "id": "phone-property",
@@ -283,7 +283,7 @@
       }
     ],
     "category": "rights",
-    "quick": true
+    "quick": false
   },
   {
     "id": "corporal-punishment",
@@ -477,7 +477,7 @@
       }
     ],
     "category": "rights",
-    "quick": true
+    "quick": false
   },
   {
     "id": "bullying",
