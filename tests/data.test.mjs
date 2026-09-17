@@ -7,9 +7,9 @@ const readJson=async path=>JSON.parse(await readFile(new URL(`../${path}`, impor
 const required=['id','title','risk','shortAnswer','keywords','principles','canDo','avoid','alternatives','reason','sources'];
 const risks=new Set(['green','yellow','red','emergency','unknown']);
 
-test('10 個核心 topics 結構完整', async()=>{
+test('核心 topics 結構完整', async()=>{
   const topics=await readJson('data/topics/topics.json');
-  assert.equal(topics.length,10);
+  assert.ok(topics.length>=10);
   for(const topic of topics){
     for(const key of required) assert.ok(key in topic, `${topic.id} missing ${key}`);
     assert.ok(risks.has(topic.risk), `${topic.id} invalid risk`);
@@ -27,6 +27,9 @@ test('緊急模式與手機暫時保管資料存在', async()=>{
   const phone=topics.find(x=>x.id==='phone-property');
   assert.equal(phone?.risk,'yellow');
   assert.match(phone?.shortAnswer ?? '',/暫時保管/);
+  const corporal=topics.find(x=>x.id==='corporal-punishment');
+  assert.equal(corporal?.risk,'red');
+  assert.match(corporal?.shortAnswer ?? '',/體罰/);
 });
 
 test('教育部來源均為 verified，宜蘭未驗證來源不得冒充 verified', async()=>{
