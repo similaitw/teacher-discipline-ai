@@ -1,7 +1,7 @@
 # TASKS
 
 ## Current task
-M1.4 — 建立／連結 Vercel project，完成 preview deployment 與線上瀏覽驗收。
+M1.5 — 線上版本已驗收；等待使用者決定是否將 PR #1 合併到 main。Chat2Code 維持暫停。
 
 ## Done
 - M0.1 Next.js/TypeScript 手機版骨架
@@ -16,20 +16,23 @@ M1.4 — 建立／連結 Vercel project，完成 preview deployment 與線上瀏
 - M1.2 資料／來源／隱私回歸測試
 - M1.3 375px 手機 UI：44px 觸控目標、focus-visible、aria-live、來源防溢出
 - M1.3 修正「網路攻擊」誤判緊急事件
-- M1.3 GitHub Actions 全綠：
-  - Install PASS
-  - Data/privacy tests PASS
-  - ESLint PASS
-  - Typecheck PASS
-  - Production build PASS
-  - Chromium install PASS
-  - 375×812 mobile E2E PASS
+- M1.3 GitHub Actions 全綠：Install / Data+privacy tests / ESLint / Typecheck / Production build / Chromium / Mobile E2E
+- M1.4 Vercel 專案建立完成：`prj_8bsUDgXskOXvhETxP2dYmtdu9B94`
+- M1.4 部署 `dpl_CqnqAzCb9nR4aXyQtWmdeXwUmEhw`：READY
+- M1.4 線上首頁 HTTP 200，標題、11 個入口、隱私提醒與法規版本資訊正常
+- M1.4 Vercel runtime error scan：0 errors
 
-## Latest validated CI
-Commit: `15ed1037007cf12843851468634d0ee56aa2160a`
-Run: `35287913463`
+## Live
+https://teacher-discipline-ai.vercel.app
+
+## Important
+- Vercel API 回報此次部署 `target=production`，雖原始部署請求指定 preview；因此目前正式別名已可公開存取。
+- PR #1 仍維持 open，尚未 merge 到 `main`。
+- Chat2Code control issue #15 已移除 `chat2code:ready`，不得自動接單。
+- 日後使用者明確要求「交回 Chat2Code」時，Runner 必須先拉取最新 `main`／最新工作分支，不得從舊 worktree 覆蓋。
 
 ## Next
-- M1.4 建立／連結 Vercel project
-- M1.4 preview deployment + 線上 browser verification
-- M1.5 由使用者決定是否 merge PR #1
+- 使用者驗收線上版本
+- 決定是否 merge PR #1
+- 若繼續由 ChatGPT：進入 M2（擴充題庫、案例、自然語言查詢品質）
+- 若交回 Chat2Code：先同步最新 GitHub 狀態後重新派工
