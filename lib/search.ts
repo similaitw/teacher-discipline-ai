@@ -1,7 +1,20 @@
 import topics from '@/data/topics/topics.json';
 import type {Topic} from './types';
 
-const emergency=['打架','持械','自傷','他傷','暴力','攻擊'];
+const emergency=[
+  '打架',
+  '互毆',
+  '持械',
+  '拿刀',
+  '拿棍棒',
+  '自傷',
+  '自殺',
+  '他傷',
+  '攻擊同學',
+  '攻擊老師',
+  '正在攻擊',
+  '暴力衝突'
+];
 
 export function searchTopic(q:string):Topic|undefined{
   const text=q.trim();
