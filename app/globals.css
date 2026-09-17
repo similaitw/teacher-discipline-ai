@@ -1,1 +1,87 @@
-:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#202124;background:#f7f8fa}*{box-sizing:border-box}body{margin:0}.wrap{max-width:760px;margin:auto;padding:20px}.hero{padding:18px 0}.sub{color:#666}.ask{display:flex;gap:8px}.ask input{flex:1;padding:14px 16px;border:1px solid #ccc;border-radius:14px;font-size:16px}.ask button,.chip{border:0;border-radius:999px;padding:11px 14px;background:#111;color:white;cursor:pointer}.chips{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}.chip{background:#e8eaed;color:#222}.card{background:white;border:1px solid #e5e7eb;border-radius:18px;padding:18px;margin:14px 0}.risk-yellow{border-left:6px solid #d69e00}.risk-red{border-left:6px solid #c62828}.risk-green{border-left:6px solid #2e7d32}.risk-emergency{border-left:6px solid #8e0000}.risk-unknown{border-left:6px solid #616161}.meta{font-size:13px;color:#666}.cols{display:grid;grid-template-columns:1fr 1fr;gap:12px}a{color:inherit}@media(max-width:520px){.ask{flex-direction:column}.cols{grid-template-columns:1fr}.wrap{padding:14px}}
+:root{
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  color:#202124;
+  background:#f7f8fa;
+  line-height:1.6;
+}
+*{box-sizing:border-box}
+html{overflow-x:hidden}
+body{margin:0;overflow-x:hidden}
+button,input{font:inherit}
+.wrap{width:100%;max-width:760px;margin:auto;padding:20px}
+.hero{padding:18px 0 10px}
+.hero h1{margin:.2rem 0;font-size:clamp(2rem,8vw,3rem);line-height:1.12}
+.eyebrow{margin:0;font-weight:700;color:#445}
+.sub{color:#5f6368;margin:.5rem 0}
+.card{
+  width:100%;
+  background:white;
+  border:1px solid #e5e7eb;
+  border-radius:18px;
+  padding:18px;
+  margin:14px 0;
+  box-shadow:0 2px 10px rgba(0,0,0,.03)
+}
+.privacy-note{font-size:14px;color:#555;background:#f4f5f7;border-radius:10px;padding:10px 12px}
+.ask{display:flex;gap:8px}
+.ask input{
+  min-width:0;
+  flex:1;
+  min-height:48px;
+  padding:12px 14px;
+  border:1px solid #b8bdc5;
+  border-radius:14px;
+  font-size:16px
+}
+.ask button,.chip{
+  min-height:44px;
+  border:0;
+  border-radius:999px;
+  padding:10px 16px;
+  background:#111;
+  color:white;
+  cursor:pointer;
+  touch-action:manipulation
+}
+.ask button:disabled{opacity:.45;cursor:not-allowed}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 0}
+.chip{background:#e8eaed;color:#222}
+button:focus-visible,input:focus-visible,a:focus-visible{
+  outline:3px solid #1a73e8;
+  outline-offset:3px
+}
+.risk-yellow{border-left:6px solid #a66c00}
+.risk-red{border-left:6px solid #a61b1b}
+.risk-green{border-left:6px solid #246b32}
+.risk-emergency{border-left:6px solid #730000}
+.risk-unknown{border-left:6px solid #555}
+.risk-label{font-weight:800;margin:0 0 6px}
+.answer-summary{font-size:1.05rem}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+li+li{margin-top:6px}
+.sources{display:grid;gap:8px}
+.source-item{margin:0;padding:10px 12px;background:#f7f8fa;border-radius:10px;font-size:14px;overflow-wrap:anywhere}
+.source-item a{color:#174ea6;text-underline-offset:3px}
+.site-footer{font-size:13px;color:#5f6368;padding:10px 2px 28px}
+.sr-only{
+  position:absolute!important;
+  width:1px!important;
+  height:1px!important;
+  padding:0!important;
+  margin:-1px!important;
+  overflow:hidden!important;
+  clip:rect(0,0,0,0)!important;
+  white-space:nowrap!important;
+  border:0!important
+}
+@media(max-width:520px){
+  .wrap{padding:14px}
+  .ask{flex-direction:column}
+  .ask button{width:100%}
+  .cols{grid-template-columns:1fr}
+  .card{padding:16px;border-radius:16px}
+  .chip{flex:1 1 auto}
+}
+@media(prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto!important}
+}
