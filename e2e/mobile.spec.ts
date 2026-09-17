@@ -42,3 +42,26 @@ test('體罰紅線入口可直接查', async({page})=>{
   await expect(page.getByText('高風險／避免採用')).toBeVisible();
   await expect(page.getByText(/依法屬於體罰/)).toBeVisible();
 });
+
+
+test('M2 連坐、安全檢查與標點搜尋', async({page})=>{
+  await page.goto('/');
+  const input=page.getByLabel('輸入管教情境');
+
+  await input.fill('一個人犯錯，為什麼要全班一起留下？');
+  await page.getByRole('button',{name:'查詢'}).click();
+  await expect(page.getByRole('heading',{name:'可以一人犯錯，全班一起受罰嗎？'})).toBeVisible();
+  await expect(page.getByText(/不得因個人或少數人/)).toBeVisible();
+
+  await input.fill('我懷疑學生有危險物品，可以搜書包嗎？');
+  await page.getByRole('button',{name:'查詢'}).click();
+  await expect(page.getByRole('heading',{name:'老師可以搜學生書包、抽屜或身體嗎？'})).toBeVisible();
+  await expect(page.getByText(/第29、30點/).first()).toBeVisible();
+
+  await input.fill('學生，考太差！可以罰嗎？');
+  await page.getByRole('button',{name:'查詢'}).click();
+  await expect(page.getByRole('heading',{name:'學生只是成績差，可以處罰嗎？'})).toBeVisible();
+
+  await page.getByText(/更多常見情境/).click();
+  await expect(page.getByRole('button',{name:/道歉或寫反省/})).toBeVisible();
+});
