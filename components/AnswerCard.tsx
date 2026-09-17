@@ -9,10 +9,12 @@ const labels={
 } as const;
 
 export function AnswerCard({topic}:{topic:Topic}){
-  return <section className={`card risk-${topic.risk}`}>
-    <div className="meta">風險：{labels[topic.risk]}</div>
-    <h2>{topic.title}</h2>
-    <p><strong>{topic.shortAnswer}</strong></p>
+  const headingId=`topic-${topic.id}`;
+
+  return <section className={`card risk-${topic.risk}`} aria-labelledby={headingId}>
+    <p className="risk-label">{labels[topic.risk]}</p>
+    <h2 id={headingId}>{topic.title}</h2>
+    <p className="answer-summary"><strong>{topic.shortAnswer}</strong></p>
 
     <div className="cols">
       <div>
@@ -32,13 +34,16 @@ export function AnswerCard({topic}:{topic:Topic}){
     <p>{topic.reason}</p>
 
     <h3>法規來源</h3>
-    {topic.sources.map(s=>
-      <p className="meta" key={`${s.url}-${s.section}`}>
-        <a href={s.url} target="_blank" rel="noreferrer">
-          {s.authority}｜{s.document}｜{s.section}
-        </a><br/>
-        最後驗證：{s.lastVerified}
-      </p>
-    )}
+    <div className="sources">
+      {topic.sources.map(s=>
+        <p className="source-item" key={`${s.url}-${s.section}`}>
+          <a href={s.url} target="_blank" rel="noreferrer">
+            {s.authority}｜{s.document}｜{s.section}
+            <span className="sr-only">（另開新視窗）</span>
+          </a><br/>
+          <span>最後驗證：{s.lastVerified}</span>
+        </p>
+      )}
+    </div>
   </section>;
 }
