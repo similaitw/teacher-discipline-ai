@@ -4,15 +4,17 @@ import {readFile} from 'node:fs/promises';
 
 const readJson=async path=>JSON.parse(await readFile(new URL(`../${path}`, import.meta.url),'utf8'));
 
-const required=['id','title','risk','shortAnswer','keywords','principles','canDo','avoid','alternatives','reason','sources'];
+const required=['id','title','risk','category','quick','shortAnswer','keywords','principles','canDo','avoid','alternatives','reason','sources'];
 const risks=new Set(['green','yellow','red','emergency','unknown']);
 
 test('核心 topics 結構完整', async()=>{
   const topics=await readJson('data/topics/topics.json');
-  assert.ok(topics.length>=10);
+  assert.ok(topics.length>=20);
   for(const topic of topics){
     for(const key of required) assert.ok(key in topic, `${topic.id} missing ${key}`);
     assert.ok(risks.has(topic.risk), `${topic.id} invalid risk`);
+    assert.ok(['daily','rights','safety','escalation'].includes(topic.category), `${topic.id} invalid category`);
+    assert.equal(typeof topic.quick,'boolean', `${topic.id} quick must be boolean`);
     assert.ok(topic.sources.length>0, `${topic.id} must have source`);
     for(const s of topic.sources){
       assert.match(s.url,/^https:\/\/edu\.law\.moe\.gov\.tw\//);
@@ -30,6 +32,9 @@ test('緊急模式與手機暫時保管資料存在', async()=>{
   const corporal=topics.find(x=>x.id==='corporal-punishment');
   assert.equal(corporal?.risk,'red');
   assert.match(corporal?.shortAnswer ?? '',/體罰/);
+  assert.equal(topics.find(x=>x.id==='collective-punishment')?.risk,'red');
+  assert.match(topics.find(x=>x.id==='safety-search')?.shortAnswer ?? '',/安全檢查/);
+  assert.equal(topics.find(x=>x.id==='low-achievement')?.risk,'red');
 });
 
 test('教育部來源均為 verified，宜蘭未驗證來源不得冒充 verified', async()=>{
