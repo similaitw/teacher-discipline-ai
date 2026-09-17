@@ -35,20 +35,23 @@ export function searchTopic(q:string):Topic|undefined{
     let score=0;
     const title=normalize(topic.title);
 
-    if(title===text) score+=20;
-    else if(title.includes(text) || text.includes(title)) score+=6;
+    if(title===text) score+=30;
+    else if(title.includes(text) || text.includes(title)) score+=8;
 
     for(const keyword of topic.keywords){
       const k=normalize(keyword);
       if(!k) continue;
-      if(text===k) score+=10;
-      else if(text.includes(k)) score+=Math.max(3,k.length);
+
+      // 精確且較長的詞比「物品」「活動」等泛用短詞更有辨識力。
+      const specificity=Math.max(2,k.length*2);
+      if(text===k) score+=specificity+12;
+      else if(text.includes(k)) score+=specificity;
     }
 
     if(!best || score>best.score) best={topic,score};
   }
 
-  return best && best.score>=3 ? best.topic : undefined;
+  return best && best.score>=4 ? best.topic : undefined;
 }
 
 export const allTopics=topics as Topic[];
