@@ -47,7 +47,7 @@ export default function Page(){
         <button type="submit" disabled={!q.trim()}>查詢</button>
       </form>
 
-      <nav className="chips" aria-label="常見管教問題">
+      <div className="chips" role="group" aria-label="常見管教問題">
         {allTopics.map(t=>
           <button
             type="button"
@@ -58,7 +58,7 @@ export default function Page(){
             {t.title.replace('可以','').replace('嗎？','')}
           </button>
         )}
-      </nav>
+      </div>
     </section>
 
     <div aria-live="polite" aria-atomic="true">
