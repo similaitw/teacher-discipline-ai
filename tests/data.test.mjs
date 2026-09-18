@@ -37,5 +37,8 @@ test('教育部來源均為 verified，宜蘭未驗證來源不得冒充 verifie
   const yilan=await readJson('data/regulations/yilan/sources.json');
   assert.ok(moe.length>=2);
   assert.ok(moe.every(x=>x.status==='verified' && x.sourceUrl.startsWith('https://edu.law.moe.gov.tw/')));
-  assert.ok(yilan.every(x=>x.status!=='verified'));
+  const verifiedYilan=yilan.filter(x=>x.status==='verified');
+  assert.ok(verifiedYilan.length>=1);
+  assert.ok(verifiedYilan.every(x=>/^https:\/\/[^/]*ilc\.edu\.tw\//.test(x.sourceUrl)));
+  assert.ok(yilan.filter(x=>!x.sourceUrl).every(x=>x.status!=='verified'));
 });
