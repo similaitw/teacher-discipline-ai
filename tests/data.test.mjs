@@ -44,3 +44,40 @@ test('教育部來源均為 verified，宜蘭未驗證來源不得冒充 verifie
   assert.ok(moe.every(x=>x.status==='verified' && x.sourceUrl.startsWith('https://edu.law.moe.gov.tw/')));
   assert.ok(yilan.every(x=>x.status!=='verified'));
 });
+
+
+test('完整知識庫分類與來源目錄完整', async()=>{
+  const categories=await readJson('data/categories/categories.json');
+  const sources=await readJson('data/sources/catalog.json');
+  assert.equal(categories.length,16);
+  assert.ok(sources.length>=27);
+  assert.ok(sources.filter(x=>String(x.status).startsWith('verified')).length>=24);
+  const categoryIds=new Set(categories.map(x=>x.id));
+  for(const source of sources){
+    assert.ok(source.categoryIds.length>0, `${source.id} missing categories`);
+    for(const id of source.categoryIds) assert.ok(categoryIds.has(id), `${source.id} invalid category ${id}`);
+    if(source.status==='verified') assert.ok(source.url, `${source.id} verified source must have URL`);
+  }
+  const yilan=sources.filter(x=>x.authority==='宜蘭縣政府');
+  assert.ok(yilan.length>=2);
+  assert.ok(yilan.every(x=>x.status==='needsOfficialSource'));
+});
+
+test('桃園手冊 53 案索引完整且未冒充內文已驗證', async()=>{
+  const cases=await readJson('data/cases/taoyuan-handbook.json');
+  assert.equal(cases.length,53);
+  const counts=Object.fromEntries(['corporal','improper','bullying','teaching'].map(
+    ch=>[ch,cases.filter(x=>x.chapter===ch).length]
+  ));
+  assert.deepEqual(counts,{corporal:7,improper:24,bullying:7,teaching:15});
+  assert.ok(cases.every(x=>x.detailStatus==='toc_only'));
+  assert.ok(cases.every(x=>Number.isInteger(x.page) && x.page>0));
+});
+
+test('教師查詢主題已擴充，不以首頁快捷數量代表知識庫大小', async()=>{
+  const topics=await readJson('data/topics/topics.json');
+  assert.ok(topics.length>=50);
+  assert.ok(topics.filter(x=>x.quick).length<=12);
+  const categoryIds=new Set((await readJson('data/categories/categories.json')).map(x=>x.id));
+  assert.ok(topics.every(x=>categoryIds.has(x.category)));
+});
