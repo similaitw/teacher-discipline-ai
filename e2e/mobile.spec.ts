@@ -65,3 +65,21 @@ test('M2 連坐、安全檢查與標點搜尋', async({page})=>{
   await page.getByText(/更多常見情境/).click();
   await expect(page.getByRole('button',{name:/道歉或寫反省/})).toBeVisible();
 });
+
+
+test('完整知識庫在手機顯示全部資料層', async({page})=>{
+  await page.goto('/');
+  await expect(page.getByRole('heading',{name:'不是只有首頁 10 題'})).toBeVisible();
+  await expect(page.getByText('54',{exact:true}).first()).toBeVisible();
+  await expect(page.getByText('27',{exact:true}).first()).toBeVisible();
+  await expect(page.getByText('53',{exact:true}).first()).toBeVisible();
+  await expect(page.getByText('16',{exact:true}).first()).toBeVisible();
+
+  const cases=page.locator('details.category-card').filter({hasText:'案例、判決與手冊'});
+  await cases.locator('summary').click();
+  await expect(cases.getByText('桃園市正向管教手冊：53 案索引')).toBeVisible();
+
+  await cases.getByText('不當管教（24 案）').click();
+  await expect(cases.getByText(/違反平等原則/)).toBeVisible();
+  await expect(cases.getByText(/午餐午休權/).first()).toBeVisible();
+});
