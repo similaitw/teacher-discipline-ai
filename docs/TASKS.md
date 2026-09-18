@@ -1,7 +1,7 @@
 # TASKS
 
 ## Current task
-M1.5 — 線上版本已驗收；等待使用者決定是否將 PR #1 合併到 main。Chat2Code 維持暫停。
+M2.0 — 擴充自然語言查詢品質與官方來源覆蓋；Chat2Code 維持暫停。
 
 ## Done
 - M0.1 Next.js/TypeScript 手機版骨架
@@ -21,6 +21,7 @@ M1.5 — 線上版本已驗收；等待使用者決定是否將 PR #1 合併到 
 - M1.4 部署 `dpl_CqnqAzCb9nR4aXyQtWmdeXwUmEhw`：READY
 - M1.4 線上首頁 HTTP 200，標題、11 個入口、隱私提醒與法規版本資訊正常
 - M1.4 Vercel runtime error scan：0 errors
+- M1.5 補入宜蘭縣教育處學管科公告 174836，確認全縣各國中小正式轉知 2024-02-05 教育部修正版
 
 ## Live
 https://teacher-discipline-ai.vercel.app
@@ -32,7 +33,8 @@ https://teacher-discipline-ai.vercel.app
 - 日後使用者明確要求「交回 Chat2Code」時，Runner 必須先拉取最新 `main`／最新工作分支，不得從舊 worktree 覆蓋。
 
 ## Next
-- 使用者驗收線上版本
-- 決定是否 merge PR #1
-- 若繼續由 ChatGPT：進入 M2（擴充題庫、案例、自然語言查詢品質）
+- M2.0 補更多自然語言誤判／同義詞測試
+- M2.1 擴充常見教師情境與案例索引
+- M2.2 持續尋找宜蘭縣政府地方規範官方全文
+- PR #1 保持 open，等 M2 第一輪穩定後再決定是否 merge
 - 若交回 Chat2Code：先同步最新 GitHub 狀態後重新派工
