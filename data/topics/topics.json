@@ -487,12 +487,19 @@
     "alternatives": [
       "轉介學務與相關處理機制"
     ],
-    "reason": "教育部明定教師不得霸凌學生；學生間事件是否成立霸凌，仍應依校園霸凌防制相關規範與正式程序認定。",
+    "reason": "學生間事件是否成立霸凌，應依教育部《校園霸凌防制準則》的正式程序處理；教師不得在程序完成前自行公開定性。",
     "sources": [
       {
         "authority": "教育部",
+        "document": "校園霸凌防制準則",
+        "section": "第4條及事件檢舉、審查、調和、調查與處理相關規定",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL000683",
+        "lastVerified": "2026-09-18"
+      },
+      {
+        "authority": "教育部",
         "document": "學校訂定教師輔導與管教學生辦法注意事項",
-        "section": "第37點及校園霸凌防制相關規範",
+        "section": "第37點",
         "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
         "lastVerified": "2026-09-18"
       }
