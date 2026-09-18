@@ -13,7 +13,7 @@ test('核心 topics 結構完整', async()=>{
   for(const topic of topics){
     for(const key of required) assert.ok(key in topic, `${topic.id} missing ${key}`);
     assert.ok(risks.has(topic.risk), `${topic.id} invalid risk`);
-    assert.ok(['daily','rights','safety','escalation'].includes(topic.category), `${topic.id} invalid category`);
+    assert.ok(['principles','general-measures','physical','rest-learning','property-search','speech-privacy','safety-emergency','formal-discipline','appeals-rights','bullying','gender','guidance-protection','special-education','teacher-accountability','yilan-local','cases'].includes(topic.category), `${topic.id} invalid category`);
     assert.equal(typeof topic.quick,'boolean', `${topic.id} quick must be boolean`);
     assert.ok(topic.sources.length>0, `${topic.id} must have source`);
     for(const s of topic.sources){
