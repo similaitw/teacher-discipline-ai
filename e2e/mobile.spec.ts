@@ -69,7 +69,7 @@ test('M2 連坐、安全檢查與標點搜尋', async({page})=>{
 
 test('完整知識庫在手機顯示全部資料層', async({page})=>{
   await page.goto('/');
-  await expect(page.getByRole('heading',{name:'不是只有首頁 10 題'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'完整知識庫｜依 16 大類查詢'})).toBeVisible();
   await expect(page.getByText('54',{exact:true}).first()).toBeVisible();
   await expect(page.getByText('27',{exact:true}).first()).toBeVisible();
   await expect(page.getByText('53',{exact:true}).first()).toBeVisible();
@@ -82,4 +82,19 @@ test('完整知識庫在手機顯示全部資料層', async({page})=>{
   await cases.getByText('不當管教（24 案）').click();
   await expect(cases.getByText(/違反平等原則/)).toBeVisible();
   await expect(cases.getByText(/午餐午休權/).first()).toBeVisible();
+});
+
+
+test('同一搜尋框可直接找官方文件與手冊來源', async({page})=>{
+  await page.goto('/');
+  const input=page.getByLabel('輸入管教情境');
+
+  await input.fill('學生獎懲準則');
+  await page.getByRole('button',{name:'查詢'}).click();
+  await expect(page.getByRole('heading',{name:'相關文件與案例'})).toBeVisible();
+  await expect(page.getByRole('link',{name:'國民小學及國民中學學生獎懲準則'})).toBeVisible();
+
+  await input.fill('桃園市正向管教手冊');
+  await page.getByRole('button',{name:'查詢'}).click();
+  await expect(page.getByText('桃園市正向管教手冊',{exact:true}).first()).toBeVisible();
 });
