@@ -1,26 +1,38 @@
 [
   {
-    "id":"yilan-student-discipline-guideline-0941115",
-    "authority":"宜蘭縣政府",
-    "documentTitle":"宜蘭縣國民中小學學生獎懲實施要點",
-    "documentNumber":"府教學字第0940124753號函",
-    "issuedDate":"2005-11-15",
-    "sourceUrl":"",
-    "lastVerified":"2026-09-18",
-    "status":"needsOfficialSource",
-    "role":"local-supplement",
-    "note":"已由宜蘭縣內多所學校現行規範確認仍引用此要點與發文字號；目前尚未取得宜蘭縣政府官方可驗證全文 URL，因此不得據此做逐條法規斷言。"
+    "id": "yilan-edu-notice-174836-1130205",
+    "authority": "宜蘭縣政府教育處",
+    "documentTitle": "公告174836：教育部修訂通過「學校訂定教師輔導與管教學生辦法注意事項」，並自即日起生效",
+    "documentNumber": "公告174836",
+    "issuedDate": "2024-02-05",
+    "sourceUrl": "https://aff.ilc.edu.tw/exam/board/pub.asp?exam=&getunit=&kind=8&putunit=&strPageThis=1658&tindex=8&txtSearch=",
+    "lastVerified": "2026-09-18",
+    "status": "verified",
+    "role": "local-adoption-evidence",
+    "note": "宜蘭縣教育處學管科公告，受文者為本縣各國中小；依教育部113年2月5日臺教學(二)字第1132800520A號函辦理，並檢附修正後注意事項及修正對照表。"
   },
   {
-    "id":"yilan-letter-1130107212",
-    "authority":"宜蘭縣政府",
-    "documentTitle":"113年7月3日府教學字第1130107212號函",
-    "documentNumber":"府教學字第1130107212號函",
-    "issuedDate":"2024-07-03",
-    "sourceUrl":"",
-    "lastVerified":"2026-09-18",
-    "status":"referencedBySchools",
-    "role":"implementation-reference",
-    "note":"宜蘭縣內學校於2024年後修訂學生獎懲辦法時引用此函，並同時納入教育部2024-04-30《國民小學及國民中學學生獎懲準則》。尚未取得縣府官方公開全文，暫不推定函文內容。"
+    "id": "yilan-student-discipline-guideline-0941115",
+    "authority": "宜蘭縣政府",
+    "documentTitle": "宜蘭縣國民中小學學生獎懲實施要點",
+    "documentNumber": "府教學字第0940124753號函",
+    "issuedDate": "2005-11-15",
+    "sourceUrl": "",
+    "lastVerified": "2026-09-18",
+    "status": "needsOfficialSource",
+    "role": "local-supplement",
+    "note": "已由宜蘭縣內多所學校現行規範確認仍引用此要點與發文字號；目前尚未取得宜蘭縣政府官方可驗證全文 URL，因此不得據此做逐條法規斷言。"
+  },
+  {
+    "id": "yilan-letter-1130107212",
+    "authority": "宜蘭縣政府",
+    "documentTitle": "113年7月3日府教學字第1130107212號函",
+    "documentNumber": "府教學字第1130107212號函",
+    "issuedDate": "2024-07-03",
+    "sourceUrl": "",
+    "lastVerified": "2026-09-18",
+    "status": "referencedBySchools",
+    "role": "implementation-reference",
+    "note": "宜蘭縣內學校於2024年後修訂學生獎懲辦法時引用此函，並同時納入教育部2024-04-30《國民小學及國民中學學生獎懲準則》。尚未取得縣府官方公開全文，暫不推定函文內容。"
   }
 ]
