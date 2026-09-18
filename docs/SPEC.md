@@ -1,3 +1,24 @@
-﻿# Specification
+# SPEC
 
-See the control issue for product context.
+## 產品定位
+手機優先的教師管教查詢工具。老師用自然語言描述情境，系統回覆：
+- 風險層級：green / yellow / red / emergency / unknown
+- 一句話結論
+- 可以怎麼做
+- 應避免事項
+- 較安全替代方案
+- 判斷理由
+- 可追溯官方來源
+
+## 法規層級
+1. 教育部現行法規／行政規則
+2. 宜蘭縣政府地方規範／函文
+3. 學校自訂規範（未來選配）
+4. 案例與外縣市手冊（僅參考）
+
+## 技術策略
+第一階段使用結構化 JSON + deterministic topic search，不綁 LLM API。
+未來再加入 RAG / LLM adapter，但模型不得自行創造法規。
+
+## 隱私
+第一版不登入、不保存查詢文字、不保存學生個資、不做聊天紀錄。

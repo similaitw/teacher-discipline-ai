@@ -1,0 +1,4 @@
+project: teacher-discipline-ai
+provider: codex
+base_branch: main
+priority: chatgpt-first

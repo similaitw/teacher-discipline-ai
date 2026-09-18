@@ -1,0 +1,43 @@
+[
+  {
+    "id": "moe-discipline-guidelines-1130205",
+    "authority": "教育部",
+    "documentTitle": "學校訂定教師輔導與管教學生辦法注意事項",
+    "sourceUrl": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+    "amendedDate": "2024-02-05",
+    "lastVerified": "2026-09-18",
+    "status": "verified",
+    "role": "teacher-discipline-primary"
+  },
+  {
+    "id": "moe-student-reward-discipline-standards-1130430",
+    "authority": "教育部",
+    "documentTitle": "國民小學及國民中學學生獎懲準則",
+    "sourceUrl": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002265",
+    "promulgatedDate": "2024-04-30",
+    "documentNumber": "臺教授國部字第1135801835A號令",
+    "lastVerified": "2026-09-18",
+    "status": "verified",
+    "role": "student-discipline-primary"
+  },
+  {
+    "id": "teacher-act-enforcement-rules-1130620",
+    "authority": "教育部",
+    "documentTitle": "教師法施行細則",
+    "sourceUrl": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL008450",
+    "amendedDate": "2024-06-20",
+    "lastVerified": "2026-09-18",
+    "status": "verified",
+    "role": "corporal-punishment-definition"
+  },
+  {
+    "id": "moe-campus-bullying-prevention-1130417",
+    "authority": "教育部",
+    "documentTitle": "校園霸凌防制準則",
+    "sourceUrl": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL000683",
+    "amendedDate": "2024-04-17",
+    "lastVerified": "2026-09-18",
+    "status": "verified",
+    "role": "bullying-procedure-primary"
+  }
+]
