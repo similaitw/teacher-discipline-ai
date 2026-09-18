@@ -83,7 +83,7 @@ export function KnowledgeLibrary(){
     <div className="library-head">
       <div>
         <p className="eyebrow">完整資料庫</p>
-        <h2 id="knowledge-title">不是只有首頁 10 題</h2>
+        <h2 id="knowledge-title">完整知識庫｜依 16 大類查詢</h2>
       </div>
       <div className="library-stats" aria-label="知識庫統計">
         <span><strong>{allTopics.length}</strong> 主題</span>
