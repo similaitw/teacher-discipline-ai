@@ -41,6 +41,7 @@ export default function Page(){
           id="discipline-query"
           value={q}
           onChange={e=>setQ(e.target.value)}
+          onKeyDown={e=>{ if(e.key==='Enter' && e.nativeEvent.isComposing) e.preventDefault(); }}
           placeholder="例如：學生一直講話，可以叫他站到下課嗎？"
           autoComplete="off"
         />
