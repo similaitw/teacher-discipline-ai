@@ -1,0 +1,822 @@
+[
+  {
+    "id": "taoyuan-01",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "corporal",
+    "chapterTitle": "體罰",
+    "caseNumber": 1,
+    "title": "體罰 教師親自施加強制力",
+    "page": 6,
+    "categoryIds": [
+      "physical",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-02",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "corporal",
+    "chapterTitle": "體罰",
+    "caseNumber": 2,
+    "title": "體罰 教師親自施加強制力",
+    "page": 9,
+    "categoryIds": [
+      "physical",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-03",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "corporal",
+    "chapterTitle": "體罰",
+    "caseNumber": 3,
+    "title": "體罰 教師責令學生自己施加強制力",
+    "page": 11,
+    "categoryIds": [
+      "physical",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-04",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "corporal",
+    "chapterTitle": "體罰",
+    "caseNumber": 4,
+    "title": "體罰 教師責令第三者施加強制力",
+    "page": 13,
+    "categoryIds": [
+      "physical",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-05",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "corporal",
+    "chapterTitle": "體罰",
+    "caseNumber": 5,
+    "title": "體罰 教師責令學生採取特定身體動作",
+    "page": 15,
+    "categoryIds": [
+      "physical",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-06",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "corporal",
+    "chapterTitle": "體罰",
+    "caseNumber": 6,
+    "title": "體罰 教師責令學生採取特定身體動作",
+    "page": 17,
+    "categoryIds": [
+      "physical",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-07",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "corporal",
+    "chapterTitle": "體罰",
+    "caseNumber": 7,
+    "title": "體罰 教師責令學生採取特定身體動作",
+    "page": 20,
+    "categoryIds": [
+      "physical",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-08",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 1,
+    "title": "不當管教 違反平等原則",
+    "page": 24,
+    "categoryIds": [
+      "principles",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-09",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 2,
+    "title": "不當管教 違反比例原則",
+    "page": 26,
+    "categoryIds": [
+      "principles",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-10",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 3,
+    "title": "不當管教 違反基本考量（連坐處罰）",
+    "page": 28,
+    "categoryIds": [
+      "principles",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-11",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 4,
+    "title": "不當管教 違反正當法律程序（未給學生陳述之機會）",
+    "page": 30,
+    "categoryIds": [
+      "principles",
+      "appeals-rights",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-12",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 5,
+    "title": "不當管教 違反正當法律程序（未給學生陳述之機會）",
+    "page": 32,
+    "categoryIds": [
+      "principles",
+      "appeals-rights",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-13",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 6,
+    "title": "不當管教 違反個資保護",
+    "page": 34,
+    "categoryIds": [
+      "speech-privacy",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-14",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 7,
+    "title": "不當管教 違反個資保護",
+    "page": 36,
+    "categoryIds": [
+      "speech-privacy",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-15",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 8,
+    "title": "不當管教 違反班規限制（以罰錢或侵害財產為管教方式）",
+    "page": 38,
+    "categoryIds": [
+      "principles",
+      "property-search",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-16",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 9,
+    "title": "不當管教 違反一般管教措施（口頭糾正過當）",
+    "page": 40,
+    "categoryIds": [
+      "speech-privacy",
+      "general-measures",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-17",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 10,
+    "title": "不當管教 違反一般管教措施（口頭糾正過當）",
+    "page": 43,
+    "categoryIds": [
+      "speech-privacy",
+      "general-measures",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-18",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 11,
+    "title": "不當管教 違反一般管教措施（口頭糾正過當）",
+    "page": 45,
+    "categoryIds": [
+      "speech-privacy",
+      "general-measures",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-19",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 12,
+    "title": "不當管教 違反一般管教措施（口頭糾正過當）",
+    "page": 47,
+    "categoryIds": [
+      "speech-privacy",
+      "general-measures",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-20",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 13,
+    "title": "不當管教 違反一般管教措施（增加作業過當）",
+    "page": 49,
+    "categoryIds": [
+      "general-measures",
+      "rest-learning",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-21",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 14,
+    "title": "不當管教 違反一般管教措施（限制參加正式課程）",
+    "page": 51,
+    "categoryIds": [
+      "rest-learning",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-22",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 15,
+    "title": "不當管教 違反一般管教措施（站立反省過當）",
+    "page": 53,
+    "categoryIds": [
+      "physical",
+      "general-measures",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-23",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 16,
+    "title": "不當管教 違反一般管教措施（站立反省過當）",
+    "page": 55,
+    "categoryIds": [
+      "physical",
+      "general-measures",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-24",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 17,
+    "title": "不當管教 違反一般管教措施（教室外罰站）",
+    "page": 57,
+    "categoryIds": [
+      "physical",
+      "rest-learning",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-25",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 18,
+    "title": "不當管教 違反一般管教措施（午餐午休權）",
+    "page": 59,
+    "categoryIds": [
+      "rest-learning",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-26",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 19,
+    "title": "不當管教 違反一般管教措施（午餐午休權）",
+    "page": 61,
+    "categoryIds": [
+      "rest-learning",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-27",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 20,
+    "title": "不當管教 違反一般管教措施（下課未給合理休息時間）",
+    "page": 63,
+    "categoryIds": [
+      "rest-learning",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-28",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 21,
+    "title": "不當管教 違反一般管教措施（下課未給合理休息時間）",
+    "page": 65,
+    "categoryIds": [
+      "rest-learning",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-29",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 22,
+    "title": "不當管教 違反一般管教措施（防衛行為過當）",
+    "page": 67,
+    "categoryIds": [
+      "safety-emergency",
+      "physical",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-30",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 23,
+    "title": "不當管教 違反一般管教措施（防衛行為過當）",
+    "page": 71,
+    "categoryIds": [
+      "safety-emergency",
+      "physical",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-31",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "improper",
+    "chapterTitle": "不當管教",
+    "caseNumber": 24,
+    "title": "其他違法處罰 恐嚇學生",
+    "page": 74,
+    "categoryIds": [
+      "speech-privacy",
+      "teacher-accountability",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-32",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "bullying",
+    "chapterTitle": "霸凌",
+    "caseNumber": 1,
+    "title": "霸凌 貶抑行為",
+    "page": 78,
+    "categoryIds": [
+      "bullying",
+      "speech-privacy",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-33",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "bullying",
+    "chapterTitle": "霸凌",
+    "caseNumber": 2,
+    "title": "霸凌 貶抑行為",
+    "page": 80,
+    "categoryIds": [
+      "bullying",
+      "speech-privacy",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-34",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "bullying",
+    "chapterTitle": "霸凌",
+    "caseNumber": 3,
+    "title": "霸凌 排擠行為",
+    "page": 82,
+    "categoryIds": [
+      "bullying",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-35",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "bullying",
+    "chapterTitle": "霸凌",
+    "caseNumber": 4,
+    "title": "霸凌 排擠行為",
+    "page": 85,
+    "categoryIds": [
+      "bullying",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-36",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "bullying",
+    "chapterTitle": "霸凌",
+    "caseNumber": 5,
+    "title": "霸凌 排擠行為",
+    "page": 87,
+    "categoryIds": [
+      "bullying",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-37",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "bullying",
+    "chapterTitle": "霸凌",
+    "caseNumber": 6,
+    "title": "霸凌 排擠行為",
+    "page": 89,
+    "categoryIds": [
+      "bullying",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-38",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "bullying",
+    "chapterTitle": "霸凌",
+    "caseNumber": 7,
+    "title": "霸凌 欺負行為",
+    "page": 91,
+    "categoryIds": [
+      "bullying",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-39",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "teaching",
+    "chapterTitle": "教學不力",
+    "caseNumber": 1,
+    "title": "教學不力 不遵守上下課時間，經常遲到或早退",
+    "page": 96,
+    "categoryIds": [
+      "teacher-accountability",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-40",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "teaching",
+    "chapterTitle": "教學不力",
+    "caseNumber": 2,
+    "title": "教學不力 有曠課、曠職紀錄且工作態度消極，經勸導仍無改善",
+    "page": 98,
+    "categoryIds": [
+      "teacher-accountability",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-41",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "teaching",
+    "chapterTitle": "教學不力",
+    "caseNumber": 3,
+    "title": "教學不力 以言語、文字或其他方式羞辱學生，造成學生心理傷害",
+    "page": 100,
+    "categoryIds": [
+      "teacher-accountability",
+      "speech-privacy",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-42",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "teaching",
+    "chapterTitle": "教學不力",
+    "caseNumber": 4,
+    "title": "教學不力 以言語、文字或其他方式羞辱學生，造成學生心理傷害",
+    "page": 102,
+    "categoryIds": [
+      "teacher-accountability",
+      "speech-privacy",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-43",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "teaching",
+    "chapterTitle": "教學不力",
+    "caseNumber": 5,
+    "title": "教學不力 體罰學生，有具體事實",
+    "page": 104,
+    "categoryIds": [
+      "teacher-accountability",
+      "physical",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-44",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "teaching",
+    "chapterTitle": "教學不力",
+    "caseNumber": 6,
+    "title": "教學不力 教學行為失當，明顯損害學生學習權益",
+    "page": 106,
+    "categoryIds": [
+      "teacher-accountability",
+      "rest-learning",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-45",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "teaching",
+    "chapterTitle": "教學不力",
+    "caseNumber": 7,
+    "title": "教學不力 教學行為失當，明顯損害學生學習權益",
+    "page": 108,
+    "categoryIds": [
+      "teacher-accountability",
+      "rest-learning",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-46",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "teaching",
+    "chapterTitle": "教學不力",
+    "caseNumber": 8,
+    "title": "教學不力 教學行為失當，明顯損害學生學習權益",
+    "page": 110,
+    "categoryIds": [
+      "teacher-accountability",
+      "rest-learning",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-47",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "teaching",
+    "chapterTitle": "教學不力",
+    "caseNumber": 9,
+    "title": "教學不力 親師溝通不良，且主要可歸責於教師",
+    "page": 112,
+    "categoryIds": [
+      "teacher-accountability",
+      "guidance-protection",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-48",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "teaching",
+    "chapterTitle": "教學不力",
+    "caseNumber": 10,
+    "title": "教學不力 親師溝通不良，且主要可歸責於教師",
+    "page": 114,
+    "categoryIds": [
+      "teacher-accountability",
+      "guidance-protection",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-49",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "teaching",
+    "chapterTitle": "教學不力",
+    "caseNumber": 11,
+    "title": "教學不力 班級經營欠佳，有具體事實",
+    "page": 116,
+    "categoryIds": [
+      "teacher-accountability",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-50",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "teaching",
+    "chapterTitle": "教學不力",
+    "caseNumber": 12,
+    "title": "教學不力 班級經營欠佳，有具體事實",
+    "page": 118,
+    "categoryIds": [
+      "teacher-accountability",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-51",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "teaching",
+    "chapterTitle": "教學不力",
+    "caseNumber": 13,
+    "title": "教學不力 於教學、輔導管教或處理行政事務過程中，消極不作為，致使教學成效不佳、學生異常行為嚴重或行政延宕，且有具體事實",
+    "page": 120,
+    "categoryIds": [
+      "teacher-accountability",
+      "guidance-protection",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-52",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "teaching",
+    "chapterTitle": "教學不力",
+    "caseNumber": 14,
+    "title": "教學不力 在外補習、違法兼職，或於上班時間從事私人商業行為",
+    "page": 122,
+    "categoryIds": [
+      "teacher-accountability",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  },
+  {
+    "id": "taoyuan-53",
+    "sourceId": "taoyuan-positive-discipline-handbook",
+    "chapter": "teaching",
+    "chapterTitle": "教學不力",
+    "caseNumber": 15,
+    "title": "教學不力 推銷商品、升學用參考書、測驗卷，獲致私人利益",
+    "page": 124,
+    "categoryIds": [
+      "teacher-accountability",
+      "cases"
+    ],
+    "detailStatus": "toc_only",
+    "note": "目前僅依手冊目錄建立案例索引；逐案內文需完成頁面影像核對後才可作詳細判斷。"
+  }
+]
