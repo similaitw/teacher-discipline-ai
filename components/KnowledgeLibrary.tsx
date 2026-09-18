@@ -102,7 +102,7 @@ export function KnowledgeLibrary(){
         const t=allTopics.filter(x=>x.category===category.id).length;
         const s=sources.filter(x=>x.categoryIds.includes(category.id)).length;
         const c=cases.filter(x=>x.categoryIds.includes(category.id)).length;
-        return <details className="category-card" key={category.id}>
+        return <details className="category-card" data-category={category.id} key={category.id}>
           <summary>
             <span className="category-icon" aria-hidden="true">{category.icon}</span>
             <span className="category-copy">
