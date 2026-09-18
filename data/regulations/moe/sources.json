@@ -29,5 +29,15 @@
     "lastVerified": "2026-09-18",
     "status": "verified",
     "role": "corporal-punishment-definition"
+  },
+  {
+    "id": "moe-campus-bullying-prevention-1130417",
+    "authority": "教育部",
+    "documentTitle": "校園霸凌防制準則",
+    "sourceUrl": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL000683",
+    "amendedDate": "2024-04-17",
+    "lastVerified": "2026-09-18",
+    "status": "verified",
+    "role": "bullying-procedure-primary"
   }
 ]
