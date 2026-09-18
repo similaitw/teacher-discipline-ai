@@ -42,3 +42,17 @@ test('體罰紅線入口可直接查', async({page})=>{
   await expect(page.getByText('高風險／避免採用')).toBeVisible();
   await expect(page.getByText(/依法屬於體罰/)).toBeVisible();
 });
+
+
+test('generic words without discipline intent fall back to unknown', async ({page}) => {
+  await page.goto('/');
+  const input=page.getByLabel('輸入管教情境');
+
+  await input.fill('中午吃什麼');
+  await page.getByRole('button',{name:'查詢'}).click();
+  await expect(page.getByText('需要進一步確認')).toBeVisible();
+
+  await input.fill('學生姓名怎麼念');
+  await page.getByRole('button',{name:'查詢'}).click();
+  await expect(page.getByText('需要進一步確認')).toBeVisible();
+});
