@@ -70,7 +70,7 @@ test('M2 連坐、安全檢查與標點搜尋', async({page})=>{
 test('完整知識庫在手機顯示全部資料層', async({page})=>{
   await page.goto('/');
   await expect(page.getByRole('heading',{name:'完整知識庫｜依 16 大類查詢'})).toBeVisible();
-  await expect(page.getByText('54',{exact:true}).first()).toBeVisible();
+  await expect(page.getByText('57',{exact:true}).first()).toBeVisible();
   await expect(page.getByText('27',{exact:true}).first()).toBeVisible();
   await expect(page.getByText('53',{exact:true}).first()).toBeVisible();
   await expect(page.getByText('16',{exact:true}).first()).toBeVisible();
