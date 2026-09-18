@@ -2,6 +2,7 @@
 
 import {FormEvent, useState} from 'react';
 import {AnswerCard} from '@/components/AnswerCard';
+import {KnowledgeLibrary} from '@/components/KnowledgeLibrary';
 import {moreTopics,quickTopics,searchTopic} from '@/lib/search';
 import type {Topic} from '@/lib/types';
 
@@ -93,6 +94,8 @@ export default function Page(){
         </section>
       : null}
     </div>
+
+    <KnowledgeLibrary />
 
     <footer className="site-footer">
       <p>
