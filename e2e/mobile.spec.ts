@@ -75,8 +75,8 @@ test('完整知識庫在手機顯示全部資料層', async({page})=>{
   await expect(page.getByText('53',{exact:true}).first()).toBeVisible();
   await expect(page.getByText('16',{exact:true}).first()).toBeVisible();
 
-  const cases=page.locator('details.category-card').filter({hasText:'案例、判決與手冊'});
-  await cases.locator('summary').click();
+  const cases=page.locator('details.category-card[data-category="cases"]');
+  await cases.locator(':scope > summary').click();
   await expect(cases.getByText('桃園市正向管教手冊：53 案索引')).toBeVisible();
 
   await cases.getByText('不當管教（24 案）').click();
