@@ -9,8 +9,8 @@ https://teacher-discipline-ai.vercel.app
 
 ## 開發狀態
 - M0：專案骨架完成
-- M1：11 個高頻／紅線 topic 已建立
-- 教育部：3 份官方核心來源已驗證
+- M1/M2：16 個高頻／紅線 topic 已建立
+- 教育部：4 份官方核心來源已驗證
 - 宜蘭縣：已建立地方來源索引；縣府官方公開全文尚待取得者不做逐條法規斷言
 - GitHub CI：資料測試、隱私測試、ESLint、TypeScript、production build、375px Chromium E2E 全部通過
 - Chat2Code 暫停，目前由 ChatGPT 主開發
