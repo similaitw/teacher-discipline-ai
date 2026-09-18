@@ -97,4 +97,8 @@ test('同一搜尋框可直接找官方文件與手冊來源', async({page})=>{
   await input.fill('桃園市正向管教手冊');
   await page.getByRole('button',{name:'查詢'}).click();
   await expect(page.getByText('桃園市正向管教手冊',{exact:true}).first()).toBeVisible();
+
+  await input.fill('午休案例');
+  await page.getByRole('button',{name:'查詢'}).click();
+  await expect(page.getByText(/午餐午休權/).first()).toBeVisible();
 });
