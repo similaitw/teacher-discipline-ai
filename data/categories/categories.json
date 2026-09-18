@@ -1,0 +1,98 @@
+[
+  {
+    "id": "principles",
+    "title": "基本原則與程序",
+    "description": "平等、比例、個別審酌、正當程序、班規與學生權利。",
+    "icon": "⚖️"
+  },
+  {
+    "id": "general-measures",
+    "title": "一般管教措施",
+    "description": "教育部列舉的一般管教方式、使用條件與界線。",
+    "icon": "🧭"
+  },
+  {
+    "id": "physical",
+    "title": "體罰、站立與身體接觸",
+    "description": "體罰紅線、站立反省、必要強制力與防衛行為。",
+    "icon": "🛑"
+  },
+  {
+    "id": "rest-learning",
+    "title": "休息與受教權",
+    "description": "下課、午休、正式課程、課後留置與學習權。",
+    "icon": "📚"
+  },
+  {
+    "id": "property-search",
+    "title": "手機、財物與安全檢查",
+    "description": "暫時保管、違禁物品、書包與身體安全檢查程序。",
+    "icon": "📱"
+  },
+  {
+    "id": "speech-privacy",
+    "title": "言語、人格與個資",
+    "description": "口頭糾正、羞辱、隱私、學生與家庭資料。",
+    "icon": "🔐"
+  },
+  {
+    "id": "safety-emergency",
+    "title": "緊急安全與危害處理",
+    "description": "打架、自傷、他傷、必要制止、校安與後續支援。",
+    "icon": "🚨"
+  },
+  {
+    "id": "formal-discipline",
+    "title": "正式獎懲與重大違規",
+    "description": "國中警告、小過、大過、獎懲委員會與重大違規程序。",
+    "icon": "📋"
+  },
+  {
+    "id": "appeals-rights",
+    "title": "申訴、救濟與程序保障",
+    "description": "學生陳述、申訴、再申訴、書面決定與救濟。",
+    "icon": "📝"
+  },
+  {
+    "id": "bullying",
+    "title": "校園霸凌",
+    "description": "霸凌定義、受理、通報、調和、調查與教師角色。",
+    "icon": "🧩"
+  },
+  {
+    "id": "gender",
+    "title": "性別事件與性平",
+    "description": "校園性別事件、性別差別待遇與性平程序。",
+    "icon": "🟣"
+  },
+  {
+    "id": "guidance-protection",
+    "title": "輔導、家庭與兒少保護",
+    "description": "三級輔導、脆弱家庭、家庭教育、兒少保護與跨網絡轉介。",
+    "icon": "🤝"
+  },
+  {
+    "id": "special-education",
+    "title": "特殊教育與合理調整",
+    "description": "特殊教育學生權利、支持服務、合理調整、申訴。",
+    "icon": "♿"
+  },
+  {
+    "id": "teacher-accountability",
+    "title": "教師責任與校事處理",
+    "description": "教師義務、考核、不適任處理、教學不力與校事程序。",
+    "icon": "👩‍🏫"
+  },
+  {
+    "id": "yilan-local",
+    "title": "宜蘭縣地方規範",
+    "description": "宜蘭縣函文、地方要點與各校規範的適用層級。",
+    "icon": "📍"
+  },
+  {
+    "id": "cases",
+    "title": "案例、判決與手冊",
+    "description": "桃園正向管教53案、公開判決與申訴案例；僅作解釋層。",
+    "icon": "📖"
+  }
+]
