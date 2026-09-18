@@ -3,6 +3,9 @@
 import {FormEvent, useState} from 'react';
 import {AnswerCard} from '@/components/AnswerCard';
 import {KnowledgeLibrary} from '@/components/KnowledgeLibrary';
+import {KnowledgeMatches} from '@/components/KnowledgeMatches';
+import {searchKnowledge} from '@/lib/knowledgeSearch';
+import type {KnowledgeMatches as MatchResult} from '@/lib/knowledgeSearch';
 import {moreTopics,quickTopics,searchTopic} from '@/lib/search';
 import type {Topic} from '@/lib/types';
 
@@ -13,11 +16,13 @@ export default function Page(){
   const [q,setQ]=useState('');
   const [result,setResult]=useState<Topic|undefined>();
   const [searched,setSearched]=useState(false);
+  const [matches,setMatches]=useState<MatchResult>({sources:[],cases:[]});
 
   const run=(text=q)=>{
     const trimmed=text.trim();
     setQ(text);
     setResult(trimmed ? searchTopic(trimmed) : undefined);
+    setMatches(trimmed ? searchKnowledge(trimmed) : {sources:[],cases:[]});
     setSearched(Boolean(trimmed));
   };
 
@@ -86,14 +91,16 @@ export default function Page(){
 
     <div aria-live="polite" aria-atomic="true">
       {result ? <AnswerCard topic={result}/> : null}
-      {searched&&!result ?
+      {searched&&!result&&matches.sources.length===0&&matches.cases.length===0 ?
         <section className="card risk-unknown" aria-labelledby="unknown-title">
           <p className="risk-label">來源不足／需確認</p>
           <h2 id="unknown-title">需要進一步確認</h2>
-          <p>目前知識庫沒有足夠來源支持具體結論。請改用更明確的情境描述，或交由學校行政／法規來源進一步確認。</p>
+          <p>目前知識庫沒有足夠來源支持具體結論。請改用更明確的情境描述，或從下方完整知識庫依分類查找。</p>
         </section>
       : null}
     </div>
+
+    {searched ? <KnowledgeMatches matches={matches}/> : null}
 
     <KnowledgeLibrary />
 
