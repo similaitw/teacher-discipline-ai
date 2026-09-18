@@ -1,0 +1,400 @@
+[
+  {
+    "id": "moe-discipline-guidelines",
+    "title": "學校訂定教師輔導與管教學生辦法注意事項",
+    "authority": "教育部",
+    "sourceType": "administrative_rule",
+    "status": "verified",
+    "categoryIds": [
+      "principles",
+      "general-measures",
+      "physical",
+      "rest-learning",
+      "property-search",
+      "speech-privacy",
+      "safety-emergency",
+      "guidance-protection"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+    "amendedDate": "2024-02-05",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "moe-discipline-illegal-table",
+    "title": "教師違法處罰措施參考表（注意事項附表一）",
+    "authority": "教育部",
+    "sourceType": "official_attachment",
+    "status": "verified",
+    "categoryIds": [
+      "physical",
+      "speech-privacy",
+      "teacher-accountability"
+    ],
+    "url": "https://edu.law.moe.gov.tw/Download.ashx?FileID=225408&id=GL002147&type=LAW",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "moe-positive-discipline-table",
+    "title": "適當之正向管教措施（注意事項附表二）",
+    "authority": "教育部",
+    "sourceType": "official_attachment",
+    "status": "verified",
+    "categoryIds": [
+      "general-measures",
+      "guidance-protection"
+    ],
+    "url": "https://edu.law.moe.gov.tw/Download.ashx?FileID=225409&id=GL002147&type=LAW",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "student-reward-discipline-standards",
+    "title": "國民小學及國民中學學生獎懲準則",
+    "authority": "教育部",
+    "sourceType": "regulation",
+    "status": "verified",
+    "categoryIds": [
+      "principles",
+      "general-measures",
+      "formal-discipline",
+      "appeals-rights",
+      "rest-learning"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002265",
+    "promulgatedDate": "2024-04-30",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "national-education-act",
+    "title": "國民教育法",
+    "authority": "教育部",
+    "sourceType": "law",
+    "status": "verified",
+    "categoryIds": [
+      "formal-discipline",
+      "appeals-rights",
+      "yilan-local"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL008927",
+    "amendedDate": "2023-06-21",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "teacher-act",
+    "title": "教師法",
+    "authority": "教育部",
+    "sourceType": "law",
+    "status": "verified",
+    "categoryIds": [
+      "teacher-accountability",
+      "speech-privacy",
+      "physical"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL008447",
+    "amendedDate": "2026-05-13",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "teacher-act-rules",
+    "title": "教師法施行細則",
+    "authority": "教育部",
+    "sourceType": "regulation",
+    "status": "verified",
+    "categoryIds": [
+      "physical",
+      "teacher-accountability"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL008450",
+    "amendedDate": "2024-06-20",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "education-fundamental-act",
+    "title": "教育基本法",
+    "authority": "教育部",
+    "sourceType": "law",
+    "status": "verified",
+    "categoryIds": [
+      "principles",
+      "physical",
+      "bullying"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL008468",
+    "amendedDate": "2013-12-11",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "student-appeal-regulation",
+    "title": "高級中等以下學校學生申訴及再申訴評議委員會組織及運作辦法",
+    "authority": "教育部",
+    "sourceType": "regulation",
+    "status": "verified",
+    "categoryIds": [
+      "appeals-rights"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL001254",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "bullying-regulation",
+    "title": "校園霸凌防制準則",
+    "authority": "教育部",
+    "sourceType": "regulation",
+    "status": "verified",
+    "categoryIds": [
+      "bullying",
+      "safety-emergency",
+      "appeals-rights"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL000683",
+    "amendedDate": "2024-04-17",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "gender-equity-act",
+    "title": "性別平等教育法",
+    "authority": "教育部",
+    "sourceType": "law",
+    "status": "verified",
+    "categoryIds": [
+      "gender",
+      "principles"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL030508",
+    "amendedDate": "2023-08-16",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "campus-gender-regulation",
+    "title": "校園性別事件防治準則",
+    "authority": "教育部",
+    "sourceType": "regulation",
+    "status": "verified",
+    "categoryIds": [
+      "gender",
+      "safety-emergency"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL034837",
+    "amendedDate": "2024-03-06",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "student-guidance-act",
+    "title": "學生輔導法",
+    "authority": "教育部",
+    "sourceType": "law",
+    "status": "verified",
+    "categoryIds": [
+      "guidance-protection",
+      "safety-emergency",
+      "special-education"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL001380",
+    "amendedDate": "2024-12-18",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "special-education-act",
+    "title": "特殊教育法",
+    "authority": "教育部",
+    "sourceType": "law",
+    "status": "verified",
+    "categoryIds": [
+      "special-education",
+      "principles"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL009136",
+    "amendedDate": "2023-06-21",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "special-education-rules",
+    "title": "特殊教育法施行細則",
+    "authority": "教育部",
+    "sourceType": "regulation",
+    "status": "verified",
+    "categoryIds": [
+      "special-education"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL009141",
+    "amendedDate": "2023-12-20",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "special-ed-support",
+    "title": "特殊教育學生及幼兒支持服務辦法",
+    "authority": "教育部",
+    "sourceType": "regulation",
+    "status": "verified",
+    "categoryIds": [
+      "special-education",
+      "guidance-protection"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL009181",
+    "amendedDate": "2024-02-27",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "special-ed-appeal",
+    "title": "特殊教育學生及幼兒申訴服務辦法",
+    "authority": "教育部",
+    "sourceType": "regulation",
+    "status": "verified",
+    "categoryIds": [
+      "special-education",
+      "appeals-rights"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL009180",
+    "amendedDate": "2023-12-21",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "campus-safety-reporting",
+    "title": "校園安全及災害事件通報作業要點",
+    "authority": "教育部",
+    "sourceType": "administrative_rule",
+    "status": "verified",
+    "categoryIds": [
+      "safety-emergency",
+      "bullying",
+      "gender",
+      "guidance-protection"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL028684",
+    "amendedDate": "2023-11-30",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "family-education-act",
+    "title": "家庭教育法",
+    "authority": "教育部",
+    "sourceType": "law",
+    "status": "verified",
+    "categoryIds": [
+      "guidance-protection"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL023113",
+    "amendedDate": "2019-05-08",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "family-counseling-regulation",
+    "title": "高級中等以下學校提供家庭教育諮商或輔導辦法",
+    "authority": "教育部",
+    "sourceType": "regulation",
+    "status": "verified",
+    "categoryIds": [
+      "guidance-protection",
+      "formal-discipline"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL031315",
+    "amendedDate": "2020-03-23",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "teacher-dismissal-regulation",
+    "title": "高級中等以下學校教師解聘不續聘停聘或資遣辦法",
+    "authority": "教育部",
+    "sourceType": "regulation",
+    "status": "verified",
+    "categoryIds": [
+      "teacher-accountability",
+      "bullying",
+      "physical"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL001995",
+    "amendedDate": "2026-01-12",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "teacher-performance-regulation",
+    "title": "公立高級中等以下學校教師成績考核辦法",
+    "authority": "教育部",
+    "sourceType": "regulation",
+    "status": "verified",
+    "categoryIds": [
+      "teacher-accountability",
+      "physical",
+      "bullying"
+    ],
+    "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL009424",
+    "amendedDate": "2026-01-12",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "personal-data-act",
+    "title": "個人資料保護法",
+    "authority": "全國法規資料庫",
+    "sourceType": "law",
+    "status": "verified_with_effective_date_caution",
+    "categoryIds": [
+      "speech-privacy"
+    ],
+    "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=I0050021",
+    "amendedDate": "2025-11-11",
+    "note": "2025-11-11修正部分條文尚未生效；使用時須依網站所示生效狀態判斷。",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "child-youth-act",
+    "title": "兒童及少年福利與權益保障法",
+    "authority": "全國法規資料庫",
+    "sourceType": "law",
+    "status": "verified",
+    "categoryIds": [
+      "guidance-protection",
+      "safety-emergency",
+      "speech-privacy"
+    ],
+    "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0050001",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "yilan-discipline-guideline",
+    "title": "宜蘭縣國民中小學學生獎懲實施要點",
+    "authority": "宜蘭縣政府",
+    "sourceType": "local_guideline",
+    "status": "needsOfficialSource",
+    "categoryIds": [
+      "yilan-local",
+      "formal-discipline"
+    ],
+    "url": "",
+    "documentNumber": "府教學字第0940124753號函",
+    "issuedDate": "2005-11-15",
+    "note": "目前由宜蘭縣內學校公開規範確認曾引用；尚未取得縣府官方現行全文，不據此做逐條斷言。",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "yilan-letter-1130107212",
+    "title": "113年7月3日府教學字第1130107212號函",
+    "authority": "宜蘭縣政府",
+    "sourceType": "local_letter",
+    "status": "needsOfficialSource",
+    "categoryIds": [
+      "yilan-local",
+      "formal-discipline"
+    ],
+    "url": "",
+    "documentNumber": "府教學字第1130107212號函",
+    "issuedDate": "2024-07-03",
+    "note": "縣內學校修訂學生獎懲規範時引用；尚未取得縣府官方公開全文。",
+    "lastVerified": "2026-09-18"
+  },
+  {
+    "id": "taoyuan-positive-discipline-handbook",
+    "title": "桃園市正向管教手冊",
+    "authority": "桃園市教育局（手冊）",
+    "sourceType": "reference_handbook",
+    "status": "reference_only",
+    "categoryIds": [
+      "cases",
+      "physical",
+      "speech-privacy",
+      "bullying",
+      "teacher-accountability"
+    ],
+    "url": "",
+    "note": "130頁案例手冊；53案將逐案建索引。外縣市案例僅作解釋參考，不作宜蘭法規主來源。",
+    "lastVerified": "2026-09-18"
+  }
+]
