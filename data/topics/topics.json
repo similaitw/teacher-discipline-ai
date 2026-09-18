@@ -1365,7 +1365,7 @@
     "category": "formal-discipline",
     "quick": false,
     "risk": "yellow",
-    "shortAnswer": "這是學校特殊管教措施，不是單一教師自行決定；應依獎懲規定，經相關委員會程序後辦理。",
+    "shortAnswer": "這是學校特殊管教措施，不是單一教師自行決定；應依程序辦理。每次帶回管教以五日為限，事前還要家訪或與法定代理人／實際照顧者面談評估效果。",
     "keywords": [
       "帶回管教",
       "家長帶回",
@@ -1374,8 +1374,10 @@
     ],
     "principles": [],
     "canDo": [
-      "由學務處依程序簽會導師與輔導室",
-      "保障學生及家長發言權利"
+      "由學務處依程序簽會導師與輔導室，經獎管會或獎懲會討論",
+      "事前家訪或與法定代理人／實際照顧者面談，評估效果",
+      "帶回期間與學生保持聯繫並持續輔導",
+      "每次以五日為限，必要時可提前終止"
     ],
     "avoid": [
       "導師或任課教師自行要求學生回家數日",
@@ -1384,13 +1386,13 @@
     "alternatives": [
       "脆弱家庭或難期待家庭發揮功能時，優先連結社政與兒少資源"
     ],
-    "reason": "注意事項第27點及獎懲準則第9條將帶回管教列為須經委員會的特殊管教措施。",
+    "reason": "獎懲準則第9條將帶回管教列為學校特殊管教措施，並明定每次以五日為限及事前評估、期間聯繫與後續輔導。",
     "sources": [
       {
         "authority": "教育部",
-        "document": "學校訂定教師輔導與管教學生辦法注意事項",
-        "section": "第27點",
-        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "document": "國民小學及國民中學學生獎懲準則",
+        "section": "第9條",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002265",
         "lastVerified": "2026-09-18"
       }
     ]
@@ -2152,6 +2154,132 @@
         "document": "高級中等以下學校提供家庭教育諮商或輔導辦法",
         "section": "第3至8條",
         "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL031315",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "dress-grooming",
+    "title": "服裝儀容違規可以記警告、小過或大過嗎？",
+    "category": "formal-discipline",
+    "quick": false,
+    "risk": "red",
+    "shortAnswer": "不可以因服裝儀容違規加以懲處；只能依準則採取有限範圍的輔導或管教措施。",
+    "keywords": [
+      "服裝儀容",
+      "服儀",
+      "制服",
+      "穿著",
+      "襪子",
+      "鞋子",
+      "儀容違規"
+    ],
+    "principles": [
+      "不得懲處",
+      "比例原則",
+      "有限管教措施"
+    ],
+    "canDo": [
+      "採正向管教、口頭糾正、日常生活表現紀錄、通知家長、書面自省或靜坐反省等準則允許方式"
+    ],
+    "avoid": [
+      "因服儀違規記警告、小過或大過",
+      "用超出準則列舉範圍的處罰"
+    ],
+    "alternatives": [
+      "先釐清服儀規定目的並以提醒、自主管理方式處理"
+    ],
+    "reason": "獎懲準則第10條明定，違反服裝儀容規定得輔導或管教，但不得加以懲處，且可採措施有明確範圍。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "國民小學及國民中學學生獎懲準則",
+        "section": "第10條",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002265",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "romantic-relationship",
+    "title": "可以因學生談戀愛或感情關係記過嗎？",
+    "category": "formal-discipline",
+    "quick": false,
+    "risk": "red",
+    "shortAnswer": "不能只用「情感交往」「關係曖昧」「情感行為不檢」等空泛概念作為懲處要件。",
+    "keywords": [
+      "談戀愛",
+      "男女朋友",
+      "感情交往",
+      "情感關係",
+      "關係曖昧",
+      "交往不檢"
+    ],
+    "principles": [
+      "懲處要件明確",
+      "人格尊嚴",
+      "不得空泛定性"
+    ],
+    "canDo": [
+      "若另有具體違規行為，針對該具體行為依合法規定處理",
+      "以性平與人際教育進行輔導"
+    ],
+    "avoid": [
+      "單純因交往關係記過",
+      "以道德性空泛標籤取代具體違規事實"
+    ],
+    "alternatives": [
+      "針對界線、尊重、安全與校園行為做教育"
+    ],
+    "reason": "獎懲準則第11條要求懲處要件明確，不得以情感交往等空泛籠統概念作為懲處要件。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "國民小學及國民中學學生獎懲準則",
+        "section": "第11條",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002265",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "attendance-discipline",
+    "title": "學生遲到、曠課或出缺席異常可以記過嗎？",
+    "category": "formal-discipline",
+    "quick": false,
+    "risk": "red",
+    "shortAnswer": "對授課日出缺席狀況可以採適當且符合比例的輔導或管教，但準則明定不得因出缺席本身加以懲處。",
+    "keywords": [
+      "遲到",
+      "曠課",
+      "缺席",
+      "出缺席",
+      "早退",
+      "常遲到"
+    ],
+    "principles": [
+      "不得因出缺席懲處",
+      "比例原則",
+      "輔導優先"
+    ],
+    "canDo": [
+      "查明遲到或缺席原因",
+      "採合法的一般管教與輔導措施",
+      "必要時連結家長與輔導資源"
+    ],
+    "avoid": [
+      "只因遲到、曠課本身直接記警告、小過或大過"
+    ],
+    "alternatives": [
+      "到校支持、時間管理、家庭與輔導介入"
+    ],
+    "reason": "獎懲準則第12條明定，授課日出缺席狀況得輔導或管教，但不得加以懲處。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "國民小學及國民中學學生獎懲準則",
+        "section": "第12條",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002265",
         "lastVerified": "2026-09-18"
       }
     ]
