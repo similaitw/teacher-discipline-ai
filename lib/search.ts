@@ -30,6 +30,17 @@ export function searchTopic(q:string):Topic|undefined{
     return (topics as Topic[]).find(t=>t.risk==='emergency');
   }
 
+  const actionOverrides:{terms:string[];topicId:string}[]=[
+    {terms:['搜書包','翻書包','檢查書包','搜身','檢查身體','翻抽屜','搜抽屜'],topicId:'safety-search'},
+    {terms:['罰蹲','伏地挺身','罰跑','青蛙跳','開合跳'],topicId:'corporal-punishment'},
+    {terms:['全班一起','全班受罰','連坐','全班處罰'],topicId:'collective-punishment'}
+  ];
+  for(const rule of actionOverrides){
+    if(rule.terms.some(term=>text.includes(normalize(term)))){
+      return (topics as Topic[]).find(t=>t.id===rule.topicId);
+    }
+  }
+
   let best:{topic:Topic;score:number}|undefined;
   for(const topic of topics as Topic[]){
     let score=0;
