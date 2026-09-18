@@ -48,7 +48,7 @@
         "lastVerified": "2026-09-18"
       }
     ],
-    "category": "daily",
+    "category": "physical",
     "quick": true
   },
   {
@@ -89,7 +89,7 @@
         "lastVerified": "2026-09-18"
       }
     ],
-    "category": "daily",
+    "category": "rest-learning",
     "quick": false
   },
   {
@@ -138,7 +138,7 @@
         "lastVerified": "2026-09-18"
       }
     ],
-    "category": "daily",
+    "category": "rest-learning",
     "quick": true
   },
   {
@@ -186,7 +186,7 @@
         "lastVerified": "2026-09-18"
       }
     ],
-    "category": "daily",
+    "category": "general-measures",
     "quick": false
   },
   {
@@ -231,7 +231,7 @@
         "lastVerified": "2026-09-18"
       }
     ],
-    "category": "daily",
+    "category": "property-search",
     "quick": true
   },
   {
@@ -282,7 +282,7 @@
         "lastVerified": "2026-09-18"
       }
     ],
-    "category": "rights",
+    "category": "speech-privacy",
     "quick": false
   },
   {
@@ -338,7 +338,7 @@
         "lastVerified": "2026-09-18"
       }
     ],
-    "category": "rights",
+    "category": "physical",
     "quick": true
   },
   {
@@ -381,7 +381,7 @@
         "lastVerified": "2026-09-18"
       }
     ],
-    "category": "safety",
+    "category": "physical",
     "quick": true
   },
   {
@@ -426,7 +426,7 @@
         "lastVerified": "2026-09-18"
       }
     ],
-    "category": "safety",
+    "category": "safety-emergency",
     "quick": true
   },
   {
@@ -476,7 +476,7 @@
         "lastVerified": "2026-09-18"
       }
     ],
-    "category": "rights",
+    "category": "speech-privacy",
     "quick": false
   },
   {
@@ -517,12 +517,12 @@
         "lastVerified": "2026-09-18"
       }
     ],
-    "category": "safety",
+    "category": "bullying",
     "quick": true
   },
   {
     "id": "collective-punishment",
-    "category": "rights",
+    "category": "principles",
     "quick": true,
     "title": "可以一人犯錯，全班一起受罰嗎？",
     "risk": "red",
@@ -567,7 +567,7 @@
   },
   {
     "id": "apology-reflection",
-    "category": "daily",
+    "category": "general-measures",
     "quick": false,
     "title": "可以要求學生道歉或寫反省嗎？",
     "risk": "green",
@@ -611,7 +611,7 @@
   },
   {
     "id": "classroom-separation",
-    "category": "daily",
+    "category": "general-measures",
     "quick": false,
     "title": "可以讓學生在教室角落暫時分開嗎？",
     "risk": "yellow",
@@ -656,7 +656,7 @@
   },
   {
     "id": "temporary-other-class",
-    "category": "daily",
+    "category": "general-measures",
     "quick": false,
     "title": "可以把學生暫時送到別班上課嗎？",
     "risk": "yellow",
@@ -700,7 +700,7 @@
   },
   {
     "id": "remove-from-scene",
-    "category": "escalation",
+    "category": "safety-emergency",
     "quick": true,
     "title": "學生一直干擾上課，可以請學務處帶離嗎？",
     "risk": "yellow",
@@ -746,7 +746,7 @@
   },
   {
     "id": "after-school-retention",
-    "category": "daily",
+    "category": "rest-learning",
     "quick": false,
     "title": "可以放學後把學生留下來嗎？",
     "risk": "yellow",
@@ -790,7 +790,7 @@
   },
   {
     "id": "extracurricular-restriction",
-    "category": "daily",
+    "category": "rest-learning",
     "quick": false,
     "title": "可以限制學生參加社團、比賽或非正式課程活動嗎？",
     "risk": "yellow",
@@ -834,7 +834,7 @@
   },
   {
     "id": "safety-search",
-    "category": "safety",
+    "category": "property-search",
     "quick": true,
     "title": "老師可以搜學生書包、抽屜或身體嗎？",
     "risk": "red",
@@ -882,7 +882,7 @@
   },
   {
     "id": "low-achievement",
-    "category": "rights",
+    "category": "rest-learning",
     "quick": false,
     "title": "學生只是成績差，可以處罰嗎？",
     "risk": "red",
@@ -921,6 +921,1237 @@
         "document": "學校訂定教師輔導與管教學生辦法注意事項",
         "section": "第20點",
         "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "equality",
+    "title": "不得差別待遇是什麼意思？",
+    "category": "principles",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "沒有正當理由，不得因學生身分或其他無關因素採取不同管教標準。",
+    "keywords": [
+      "差別待遇",
+      "平等原則",
+      "不公平",
+      "同樣違規",
+      "針對某人"
+    ],
+    "principles": [],
+    "canDo": [
+      "用一致標準處理相同情境",
+      "有差別處理時說明與教育目的相關的正當理由"
+    ],
+    "avoid": [
+      "因與教師關係好壞、家庭背景等無關因素差別處理"
+    ],
+    "alternatives": [
+      "先比對事實與個別情狀，再決定是否有合理差異"
+    ],
+    "reason": "教育部注意事項第11點及獎懲準則第3條均要求無正當理由不得差別待遇。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第11點",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "proportionality",
+    "title": "管教要怎麼判斷有沒有過當？",
+    "category": "principles",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "看目的、必要性與損害是否相當；能達成目的時應優先選擇對學生權益影響較小的方式。",
+    "keywords": [
+      "比例原則",
+      "過當",
+      "太重",
+      "處罰太重",
+      "必要性"
+    ],
+    "principles": [],
+    "canDo": [
+      "先確認教育目的",
+      "比較較低侵害的替代方法",
+      "依行為危害與情節調整強度"
+    ],
+    "avoid": [
+      "小違規使用高度侵害措施",
+      "為方便管理而忽略學生權益"
+    ],
+    "alternatives": [
+      "用『目的→必要性→較低侵害替代→損害是否失衡』四步判斷"
+    ],
+    "reason": "教育部注意事項第12點及獎懲準則第4條明定比例原則。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第12點",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "individual-circumstances",
+    "title": "管教前要考量學生哪些個別狀況？",
+    "category": "principles",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "應審酌動機、手段、危害、人格與身心健康、生活家庭、平時表現及事後態度。",
+    "keywords": [
+      "個別狀況",
+      "動機",
+      "家庭狀況",
+      "身心狀況",
+      "事後態度",
+      "個別差異"
+    ],
+    "principles": [],
+    "canDo": [
+      "先了解行為原因與當時情境",
+      "必要時結合輔導資訊調整方式"
+    ],
+    "avoid": [
+      "只看結果，不問原因就一律用固定處罰"
+    ],
+    "alternatives": [
+      "把個別情狀寫入簡短事件紀錄，方便後續行政協作"
+    ],
+    "reason": "教育部注意事項第13點及獎懲準則第5條列出應審酌的個別情狀。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第13點",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "student-statement",
+    "title": "處罰前一定要讓學生說明嗎？",
+    "category": "appeals-rights",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "應視情況適度給予學生陳述意見的機會，了解動機與重要情狀，並說明要導正的行為、理由與措施。",
+    "keywords": [
+      "陳述意見",
+      "學生說明",
+      "沒問學生",
+      "正當程序",
+      "申辯"
+    ],
+    "principles": [],
+    "canDo": [
+      "先讓學生說明關鍵事實",
+      "向學生說清楚原因與措施"
+    ],
+    "avoid": [
+      "完全不聽學生陳述就對有爭議事實作出不利處置"
+    ],
+    "alternatives": [
+      "用簡短『發生什麼→你的說法→我的處理理由』完成程序"
+    ],
+    "reason": "教育部注意事項第15點規定處罰的正當法律程序。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第15點",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "class-rule-money",
+    "title": "班規可以罰錢、扣押財物或收班費當處罰嗎？",
+    "category": "principles",
+    "quick": false,
+    "risk": "red",
+    "shortAnswer": "班規、班會或其他班級決議不得訂定罰錢或其他侵害學生財產權的處罰。",
+    "keywords": [
+      "罰錢",
+      "班規罰款",
+      "扣錢",
+      "班費處罰",
+      "財產權"
+    ],
+    "principles": [],
+    "canDo": [
+      "班規用行為提醒、修復責任或合法一般管教措施取代金錢處罰"
+    ],
+    "avoid": [
+      "用罰款作為遲到、講話、未交作業等處罰"
+    ],
+    "alternatives": [
+      "若造成公物或他人物品損害，另依合法賠償程序處理"
+    ],
+    "reason": "教育部注意事項第14、22點明定不得以侵害財產權作為管教手段。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第22點",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "hair-style",
+    "title": "學校或老師可以因髮式處罰學生嗎？",
+    "category": "principles",
+    "quick": false,
+    "risk": "red",
+    "shortAnswer": "除防止危害學生安全或疾病傳染所必要外，學校不得限制學生髮式或據以處罰。",
+    "keywords": [
+      "髮式",
+      "頭髮",
+      "染髮",
+      "髮禁",
+      "剪頭髮"
+    ],
+    "principles": [],
+    "canDo": [
+      "有安全或疾病傳染必要時，採最小必要限制並說明理由"
+    ],
+    "avoid": [
+      "單純因髮型不合偏好處罰學生",
+      "強迫剪髮作為處罰"
+    ],
+    "alternatives": [
+      "以服儀教育、自主管理與溝通取代處罰"
+    ],
+    "reason": "教育部注意事項第22點保障學生身體自主與人格發展。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第22點",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "daily-record",
+    "title": "可以把違規列入日常生活表現紀錄嗎？",
+    "category": "general-measures",
+    "quick": false,
+    "risk": "green",
+    "shortAnswer": "可以。列入日常生活表現紀錄是教育部明列的一般管教措施。",
+    "keywords": [
+      "生活表現",
+      "日常紀錄",
+      "違規紀錄",
+      "記錄表現"
+    ],
+    "principles": [],
+    "canDo": [
+      "客觀記錄事件、日期與具體行為",
+      "避免評價性或羞辱性文字"
+    ],
+    "avoid": [
+      "把未查證指控寫成既定事實",
+      "用紀錄公開羞辱學生"
+    ],
+    "alternatives": [
+      "將紀錄作為親師溝通與後續輔導依據"
+    ],
+    "reason": "注意事項第23點第5款及獎懲準則第7條列為一般管教措施。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第23點第5款",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "guardian-notice",
+    "title": "可以通知家長協助處理學生違規嗎？",
+    "category": "general-measures",
+    "quick": false,
+    "risk": "green",
+    "shortAnswer": "可以。通知法定代理人或實際照顧者協請處理，是教育部明列的一般管教措施。",
+    "keywords": [
+      "通知家長",
+      "聯絡家長",
+      "叫家長",
+      "實際照顧者"
+    ],
+    "principles": [],
+    "canDo": [
+      "就具體事實與已採措施溝通",
+      "控制提供資訊在必要範圍"
+    ],
+    "avoid": [
+      "在家長群公開個別學生事件",
+      "把所有輔導責任轉嫁給家長"
+    ],
+    "alternatives": [
+      "用客觀事件紀錄協助親師共同處理"
+    ],
+    "reason": "注意事項第23點第6款及獎懲準則第7條列為一般管教措施。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第23點第6款",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "related-extra-work",
+    "title": "可以要求學生課餘打掃或做與事件相關的工作嗎？",
+    "category": "general-measures",
+    "quick": false,
+    "risk": "green",
+    "shortAnswer": "原則上可以，前提是該課餘措施能達成管教目的並符合比例。",
+    "keywords": [
+      "課餘打掃",
+      "打掃",
+      "額外工作",
+      "課餘措施",
+      "破壞環境"
+    ],
+    "principles": [],
+    "canDo": [
+      "讓措施與行為有教育關聯，例如弄髒環境後協助清潔",
+      "控制時間與強度"
+    ],
+    "avoid": [
+      "以勞動羞辱學生",
+      "安排與事件毫無關聯的過量工作"
+    ],
+    "alternatives": [
+      "優先採修復性、與行為後果直接相關的措施"
+    ],
+    "reason": "注意事項第23點第9款明列課餘從事可達成管教目的之措施。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第23點第9款",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "quiet-reflection",
+    "title": "可以要求學生靜坐反省嗎？",
+    "category": "general-measures",
+    "quick": false,
+    "risk": "green",
+    "shortAnswer": "可以。要求靜坐反省是教育部列舉的一般管教措施，仍須符合比例與身心狀況。",
+    "keywords": [
+      "靜坐反省",
+      "靜坐",
+      "安靜反省"
+    ],
+    "principles": [],
+    "canDo": [
+      "設定清楚目的與適度時間",
+      "學生不適時立即調整"
+    ],
+    "avoid": [
+      "長時間強迫維持造成身體痛苦的姿勢"
+    ],
+    "alternatives": [
+      "搭配簡短反思問題，比單純靜坐更有教育目的"
+    ],
+    "reason": "注意事項第23點第12款及獎懲準則第7條明列靜坐反省。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第23點第12款",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "physiological-needs",
+    "title": "管教時可以不讓學生上廁所或處理生理需求嗎？",
+    "category": "rest-learning",
+    "quick": false,
+    "risk": "red",
+    "shortAnswer": "不應以管教剝奪確實的如廁、生理日或其他必要生理需求；發現此情形應調整或停止管教。",
+    "keywords": [
+      "上廁所",
+      "廁所",
+      "生理期",
+      "生理日",
+      "喝水",
+      "生理需求"
+    ],
+    "principles": [],
+    "canDo": [
+      "確認實際需求後允許處理",
+      "必要時調整管教時間或方式"
+    ],
+    "avoid": [
+      "以不准上廁所作為處罰",
+      "明知身體不適仍持續原措施"
+    ],
+    "alternatives": [
+      "先滿足必要生理需求，再處理違規事件"
+    ],
+    "reason": "注意事項第23點明定身體不適或有廁所、生理日等需求時應調整或停止。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第23點第3項",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "parent-school-help",
+    "title": "什麼情況可以請家長到校協助？",
+    "category": "guidance-protection",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "學務處或輔導處實施特殊管教、確需家長或實際照顧者到校協助時，可以請其配合到校。",
+    "keywords": [
+      "家長到校",
+      "請家長來",
+      "到校協助",
+      "實際照顧者到校"
+    ],
+    "principles": [],
+    "canDo": [
+      "先說明已採措施與需要協作原因",
+      "重大違規同步提供必要家庭教育或輔導資源"
+    ],
+    "avoid": [
+      "把到校協助當作羞辱家長或學生的手段"
+    ],
+    "alternatives": [
+      "由學務、輔導、導師共同建立後續輔導分工"
+    ],
+    "reason": "注意事項第26點規範法定代理人或實際照顧者協助輔導管教。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第26點",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "take-home-discipline",
+    "title": "可以叫家長把重大違規學生帶回家管教嗎？",
+    "category": "formal-discipline",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "這是學校特殊管教措施，不是單一教師自行決定；應依獎懲規定，經相關委員會程序後辦理。",
+    "keywords": [
+      "帶回管教",
+      "家長帶回",
+      "叫學生回家",
+      "停課回家"
+    ],
+    "principles": [],
+    "canDo": [
+      "由學務處依程序簽會導師與輔導室",
+      "保障學生及家長發言權利"
+    ],
+    "avoid": [
+      "導師或任課教師自行要求學生回家數日",
+      "用帶回管教取代必要的校內支持"
+    ],
+    "alternatives": [
+      "脆弱家庭或難期待家庭發揮功能時，優先連結社政與兒少資源"
+    ],
+    "reason": "注意事項第27點及獎懲準則第9條將帶回管教列為須經委員會的特殊管教措施。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第27點",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "high-care-course",
+    "title": "重大違規可以安排高關懷課程嗎？",
+    "category": "formal-discipline",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "可以列為學校特殊管教措施之一，但須依學生獎懲程序由學校評估、討論決議。",
+    "keywords": [
+      "高關懷課程",
+      "高關懷",
+      "重大違規課程"
+    ],
+    "principles": [],
+    "canDo": [
+      "由學務與輔導共同評估",
+      "保留學生與家長發言權"
+    ],
+    "avoid": [
+      "把高關懷課程當成隔離或報復措施"
+    ],
+    "alternatives": [
+      "與輔導目標、轉銜及回班方案一起規劃"
+    ],
+    "reason": "注意事項第27點及獎懲準則第9條列有高關懷課程。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第27點第2款",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "social-service-referral",
+    "title": "什麼情況需要連結社政、心理或家庭諮商資源？",
+    "category": "guidance-protection",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "重大違規、家庭功能不足或學生需要專業服務時，可由學校依程序連結社政、心理治療、社工與家庭諮商等資源。",
+    "keywords": [
+      "社政",
+      "社工",
+      "心理治療",
+      "家庭諮商",
+      "轉介"
+    ],
+    "principles": [],
+    "canDo": [
+      "由學務、輔導評估需要並與家長溝通",
+      "脆弱家庭優先連結適當兒少保護資源"
+    ],
+    "avoid": [
+      "把轉介當作懲罰或貼標籤"
+    ],
+    "alternatives": [
+      "明確記錄轉介目的、窗口與後續追蹤"
+    ],
+    "reason": "注意事項第27、35點及獎懲準則第9條提供跨專業支持機制。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第27、35點",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "police-judicial-referral",
+    "title": "什麼情況可以移送少年輔導、警察或司法機關？",
+    "category": "safety-emergency",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "重大違規達到需要外部介入時，學校可依特殊管教程序送少年輔導、警察或司法機關；急迫危險另依即時安全處置。",
+    "keywords": [
+      "警察",
+      "司法",
+      "少年輔導",
+      "報警",
+      "移送"
+    ],
+    "principles": [],
+    "canDo": [
+      "由學校依事件性質與法定程序處理",
+      "有立即生命身體危險時先確保安全"
+    ],
+    "avoid": [
+      "把報警當作一般班級管教威嚇"
+    ],
+    "alternatives": [
+      "可先諮詢校內學務、校安與主管單位"
+    ],
+    "reason": "注意事項第27點及獎懲準則第9條列出少年輔導、警察與司法機關的外部處置。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第27點第4至6款",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "junior-high-demerits",
+    "title": "國中可以記警告、小過、大過嗎？",
+    "category": "formal-discipline",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "可以，國民中學得依合法校規採警告、小過、大過等書面懲處；程序與權限須依獎懲準則辦理。",
+    "keywords": [
+      "警告",
+      "小過",
+      "大過",
+      "記過",
+      "書面懲處"
+    ],
+    "principles": [],
+    "canDo": [
+      "依學校獎懲規定與準則程序辦理",
+      "重大懲處交由獎懲會審議"
+    ],
+    "avoid": [
+      "老師自行用口頭宣告取代正式程序",
+      "沒有事實與理由就作成懲處"
+    ],
+    "alternatives": [
+      "先確認屬一般管教或正式懲處，避免程序混用"
+    ],
+    "reason": "國民小學及國民中學學生獎懲準則第25條列明國中書面懲處種類。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "國民小學及國民中學學生獎懲準則",
+        "section": "第25條",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002265",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "discipline-written-decision",
+    "title": "重大管教或懲處決定需要書面嗎？",
+    "category": "formal-discipline",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "依法應作成審議決定書的事件，書面應包含主旨、事實、理由、法令依據及救濟方法、期間與受理機關。",
+    "keywords": [
+      "決定書",
+      "書面通知",
+      "懲處通知",
+      "救濟方法",
+      "法令依據"
+    ],
+    "principles": [],
+    "canDo": [
+      "客觀記載事實與理由",
+      "清楚告知救濟途徑與期間"
+    ],
+    "avoid": [
+      "只有結論沒有事實理由",
+      "漏掉救濟教示"
+    ],
+    "alternatives": [
+      "使用學校正式決定書流程並留存送達紀錄"
+    ],
+    "reason": "獎懲準則規定特殊管教與正式審議決定應以可供存證查核方式通知。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "國民小學及國民中學學生獎懲準則",
+        "section": "第21條及相關決定書規定",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002265",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "vulnerable-family",
+    "title": "學生是脆弱家庭，還能叫家長帶回管教嗎？",
+    "category": "guidance-protection",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "若家庭脆弱或難期待發揮輔導管教功能，可不採帶回管教，應連結社政或其他校內外兒少保護資源。",
+    "keywords": [
+      "脆弱家庭",
+      "家庭功能不足",
+      "家長無法管",
+      "兒少保護"
+    ],
+    "principles": [],
+    "canDo": [
+      "由輔導與相關單位評估家庭支持需求",
+      "必要時連結社政與兒少保護資源"
+    ],
+    "avoid": [
+      "明知家庭功能不足仍把問題全交回家庭"
+    ],
+    "alternatives": [
+      "建立校內外跨專業支持與追蹤"
+    ],
+    "reason": "獎懲準則第9條明定脆弱家庭可改採社政與兒少保護資源。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "國民小學及國民中學學生獎懲準則",
+        "section": "第9條",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002265",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "illegal-items",
+    "title": "發現疑似違法或危險物品要怎麼處理？",
+    "category": "property-search",
+    "quick": false,
+    "risk": "emergency",
+    "shortAnswer": "先確保安全並依物品性質交由學務或相關機關依法處理；一般教師不應把危險物品查扣程序當作日常沒收。",
+    "keywords": [
+      "違法物品",
+      "危險物品",
+      "刀械",
+      "毒品",
+      "槍械",
+      "違禁品"
+    ],
+    "principles": [],
+    "canDo": [
+      "立即降低接觸風險並通知學務行政",
+      "必要時依校安與警政程序處理"
+    ],
+    "avoid": [
+      "自行長時間持有高風險物品而不通報",
+      "以一般手機保管方式處理違法危險物品"
+    ],
+    "alternatives": [
+      "依校園安全檢查與違禁物品程序處理"
+    ],
+    "reason": "注意事項第29至31點區分安全檢查、違法物品與其他物品之處理。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第29至31點",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "public-property-compensation",
+    "title": "學生損壞公物，可以要求賠償嗎？",
+    "category": "property-search",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "可以依法處理損害賠償；這與『用罰錢當管教』不同，必須以實際損害與法定責任為基礎。",
+    "keywords": [
+      "損壞公物",
+      "賠償",
+      "公物",
+      "破壞物品"
+    ],
+    "principles": [],
+    "canDo": [
+      "先確認損害事實與責任",
+      "依學校程序通知家長並處理賠償"
+    ],
+    "avoid": [
+      "任意加倍罰款",
+      "把固定罰金寫進班規"
+    ],
+    "alternatives": [
+      "搭配修復教育與責任承擔"
+    ],
+    "reason": "注意事項第14點說明依法賠償公物或他人物品損害不屬禁止的財產權處罰。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第14點第8款",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "student-appeal",
+    "title": "學生不服管教或懲處，可以申訴嗎？",
+    "category": "appeals-rights",
+    "quick": false,
+    "risk": "green",
+    "shortAnswer": "學生對學校措施認為違法或不當，得依學生申訴制度尋求救濟；個別事件若屬性平或霸凌，依其專門程序辦理。",
+    "keywords": [
+      "學生申訴",
+      "再申訴",
+      "不服處分",
+      "救濟",
+      "申評會"
+    ],
+    "principles": [],
+    "canDo": [
+      "提供正確的申訴窗口與期限資訊",
+      "保留原措施、送達與相關紀錄"
+    ],
+    "avoid": [
+      "阻止學生依法申訴",
+      "把申訴視為不服從再加重處分"
+    ],
+    "alternatives": [
+      "先確認事件屬一般申訴、霸凌或性平專門程序"
+    ],
+    "reason": "國民教育法及學生申訴、再申訴運作辦法建立學生救濟制度。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "高級中等以下學校學生申訴及再申訴評議委員會組織及運作辦法",
+        "section": "申訴及再申訴程序",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL001254",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "bullying-report",
+    "title": "知道疑似霸凌事件，老師要先做什麼？",
+    "category": "bullying",
+    "quick": false,
+    "risk": "emergency",
+    "shortAnswer": "先維護學生安全並依校園霸凌防制準則通報學校指定窗口；不要由單一教師私下完成『認定』。",
+    "keywords": [
+      "疑似霸凌",
+      "霸凌通報",
+      "知道霸凌",
+      "被霸凌",
+      "欺負通報"
+    ],
+    "principles": [],
+    "canDo": [
+      "立即通知校內指定權責人員",
+      "保存客觀資訊並避免公開標籤當事人",
+      "有立即危險先處理安全"
+    ],
+    "avoid": [
+      "自行宣布霸凌成立或不成立",
+      "要求學生私下和解取代法定程序"
+    ],
+    "alternatives": [
+      "依校園霸凌防制準則進入受理與處理程序"
+    ],
+    "reason": "校園霸凌防制準則規範學校人員知悉疑似事件後的處理與通報責任。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "校園霸凌防制準則",
+        "section": "通報與處理規定",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL000683",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "gender-discrimination",
+    "title": "可以因性別、性別氣質或性傾向差別管教嗎？",
+    "category": "gender",
+    "quick": false,
+    "risk": "red",
+    "shortAnswer": "不得因性別、性別特質、性別認同或性傾向等因素而給予不當差別待遇。",
+    "keywords": [
+      "性別歧視",
+      "性傾向",
+      "性別氣質",
+      "性別認同",
+      "男生女生"
+    ],
+    "principles": [],
+    "canDo": [
+      "以與事件本身相關的客觀標準管教",
+      "遇性別議題時使用尊重且中性的語言"
+    ],
+    "avoid": [
+      "用性別刻板印象作為處罰或羞辱理由"
+    ],
+    "alternatives": [
+      "必要時諮詢性平權責單位"
+    ],
+    "reason": "性別平等教育法以消除性別歧視、維護人格尊嚴為核心。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "性別平等教育法",
+        "section": "總則及校園性別平等規定",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL030508",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "campus-gender-event",
+    "title": "疑似校園性別事件，導師可以自己調查嗎？",
+    "category": "gender",
+    "quick": false,
+    "risk": "red",
+    "shortAnswer": "不應由導師私下自行完成調查或定性；應保護當事人、保存必要資訊並轉由學校性平機制依法處理。",
+    "keywords": [
+      "性騷擾",
+      "性侵害",
+      "性霸凌",
+      "性平事件",
+      "校園性別事件"
+    ],
+    "principles": [],
+    "canDo": [
+      "先維護安全與隱私",
+      "立即依校內性平窗口與法定程序處理"
+    ],
+    "avoid": [
+      "公開詢問細節造成二次傷害",
+      "私下要求雙方和解取代正式程序"
+    ],
+    "alternatives": [
+      "由性平會及權責單位依防治準則處理"
+    ],
+    "reason": "性別平等教育法及校園性別事件防治準則建立專門處理程序。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "校園性別事件防治準則",
+        "section": "校園性別事件處理程序",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL034837",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "special-ed-flexibility",
+    "title": "特殊教育學生的管教需要調整嗎？",
+    "category": "special-education",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "需要。學校訂定及實施管教規定時，應考量特殊教育學生的身心特性與需要，保持必要彈性。",
+    "keywords": [
+      "特教生",
+      "特殊教育",
+      "身心障礙",
+      "管教調整"
+    ],
+    "principles": [],
+    "canDo": [
+      "先確認學生特性、IEP或相關支持需求",
+      "必要時與特教團隊、輔導及家長協作"
+    ],
+    "avoid": [
+      "完全套用一般學生相同處罰而不考量障礙需求"
+    ],
+    "alternatives": [
+      "使用合理調整、功能性行為支持與團隊合作"
+    ],
+    "reason": "注意事項第8點要求對特殊教育學生考量身心特性與需要並保持必要彈性。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第8點",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "reasonable-adjustment",
+    "title": "什麼是特殊教育的合理調整？",
+    "category": "special-education",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "合理調整是為使特殊教育學生能平等參與與學習，依個別需求調整環境、教學、活動或支持方式。",
+    "keywords": [
+      "合理調整",
+      "融合教育",
+      "特教支持",
+      "IEP",
+      "行為功能介入"
+    ],
+    "principles": [],
+    "canDo": [
+      "與特教團隊依個別需求規劃支持",
+      "將必要調整納入教學與活動安排"
+    ],
+    "avoid": [
+      "把障礙造成的困難直接視為故意違規"
+    ],
+    "alternatives": [
+      "結合IEP、支持服務與行為功能介入"
+    ],
+    "reason": "特殊教育法施行細則與支持服務辦法明定合理調整、個別化支持與團隊合作。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "特殊教育法施行細則",
+        "section": "合理調整與個別化支持",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL009141",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "special-ed-appeal",
+    "title": "特殊教育學生對安置、輔導或支持有爭議怎麼辦？",
+    "category": "special-education",
+    "quick": false,
+    "risk": "green",
+    "shortAnswer": "可依特殊教育申訴機制處理；評議前學校仍應提供彈性輔導與必要支持。",
+    "keywords": [
+      "特教申訴",
+      "安置爭議",
+      "鑑定爭議",
+      "支持服務爭議"
+    ],
+    "principles": [],
+    "canDo": [
+      "告知特教申訴與再申訴管道",
+      "評議期間持續提供必要學習與支持"
+    ],
+    "avoid": [
+      "因申訴而中斷必要支持"
+    ],
+    "alternatives": [
+      "由特教權責人員協助整理爭議事項與文件"
+    ],
+    "reason": "特殊教育學生及幼兒申訴服務辦法規範鑑定、安置、輔導及支持服務爭議。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "特殊教育學生及幼兒申訴服務辦法",
+        "section": "申訴與支持規定",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL009180",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "teacher-confidentiality",
+    "title": "老師可以把學生或家庭資料告訴其他人嗎？",
+    "category": "speech-privacy",
+    "quick": false,
+    "risk": "red",
+    "shortAnswer": "因輔導管教取得的學生或家庭資料，除法律規定或處理業務必要範圍外，不得任意對外公開或洩漏。",
+    "keywords": [
+      "保密",
+      "學生資料",
+      "家庭資料",
+      "跟別人說",
+      "隱私洩漏"
+    ],
+    "principles": [],
+    "canDo": [
+      "只向依法或業務上需要知悉的人提供必要資訊",
+      "傳遞資料時做最小化與適當保護"
+    ],
+    "avoid": [
+      "在非必要群組、社群或公開場合揭露可識別資訊"
+    ],
+    "alternatives": [
+      "先去識別化再做一般性教學或案例討論"
+    ],
+    "reason": "注意事項第17點及教師法均有學生與家庭資料保密義務。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學校訂定教師輔導與管教學生辦法注意事項",
+        "section": "第17點",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL002147",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "teacher-duty",
+    "title": "教師在輔導管教上有哪些基本義務？",
+    "category": "teacher-accountability",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "教師有維護學生受教權、依規定輔導管教及保護學生資料等專業義務；處理方式須兼顧學生權利與教學秩序。",
+    "keywords": [
+      "教師義務",
+      "管教權",
+      "教師責任",
+      "教師法"
+    ],
+    "principles": [],
+    "canDo": [
+      "依合法程序與專業原則輔導管教",
+      "保存必要紀錄並適時尋求行政支援"
+    ],
+    "avoid": [
+      "把管教理解為無限制處罰權"
+    ],
+    "alternatives": [
+      "把日常處理與正式行政程序分層"
+    ],
+    "reason": "教師法第32條及教育部輔導管教注意事項共同界定教師義務與管教邊界。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "教師法",
+        "section": "第32條及相關規定",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL008447",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "teacher-complaint-process",
+    "title": "教師被檢舉不當管教後，學校會怎麼處理？",
+    "category": "teacher-accountability",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "依事件性質可能進入校事、考核、霸凌、性平或教師法相關程序；應先確認事件類型與適用法規，不能混用程序。",
+    "keywords": [
+      "教師被檢舉",
+      "校事會議",
+      "不當管教調查",
+      "教師調查",
+      "被申訴"
+    ],
+    "principles": [],
+    "canDo": [
+      "保存客觀教學與輔導管教紀錄",
+      "確認通知文件、事件類型與程序依據",
+      "依法陳述意見並配合調查"
+    ],
+    "avoid": [
+      "刪改紀錄或私下影響學生陳述",
+      "把所有檢舉一概當作霸凌案件"
+    ],
+    "alternatives": [
+      "必要時尋求教師組織、法律或專業程序協助"
+    ],
+    "reason": "高級中等以下學校教師解聘不續聘停聘或資遣辦法與教師成績考核辦法規範相關處理。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "高級中等以下學校教師解聘不續聘停聘或資遣辦法",
+        "section": "現行教師事件處理規定",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL001995",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "student-guidance-levels",
+    "title": "學生反覆違規，什麼時候要從管教轉成輔導？",
+    "category": "guidance-protection",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "當行為持續、涉及身心與家庭因素或一般管教反覆無效時，應結合學校輔導體系，而不是只持續加重處罰。",
+    "keywords": [
+      "反覆違規",
+      "一直違規",
+      "轉輔導",
+      "三級輔導",
+      "輔導室"
+    ],
+    "principles": [],
+    "canDo": [
+      "與輔導室共同評估學生需求",
+      "針對原因提供發展性、介入性或處遇性支持"
+    ],
+    "avoid": [
+      "把轉介輔導當成處罰",
+      "只升高處罰強度而不處理原因"
+    ],
+    "alternatives": [
+      "建立導師、輔導、家長與必要外部資源合作"
+    ],
+    "reason": "學生輔導法建立各級學生輔導與專業支持機制。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "學生輔導法",
+        "section": "學生輔導體系",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=GL001380",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "campus-safety-report",
+    "title": "哪些事件需要走校安通報？",
+    "category": "safety-emergency",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "涉及法定或教育部校安分類的安全、災害、兒少、性平等事件時，應依校安通報規定由學校權責人員辦理；教師應即時通報校內窗口。",
+    "keywords": [
+      "校安通報",
+      "校安",
+      "安全事件",
+      "災害事件",
+      "通報"
+    ],
+    "principles": [],
+    "canDo": [
+      "先通知校內校安或學務權責窗口",
+      "保留時間、地點、人物與客觀事件資訊"
+    ],
+    "avoid": [
+      "因怕麻煩自行判斷不用通報而延誤",
+      "在非必要公開管道傳遞敏感資訊"
+    ],
+    "alternatives": [
+      "依事件類別同步啟動霸凌、性平、兒少等專門程序"
+    ],
+    "reason": "校園安全及災害事件通報作業要點統整多項法定校安通報事件。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "校園安全及災害事件通報作業要點",
+        "section": "通報作業規定",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL028684",
+        "lastVerified": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": "family-education-major-violation",
+    "title": "學生重大違規後，學校需要提供家庭教育協助嗎？",
+    "category": "guidance-protection",
+    "quick": false,
+    "risk": "yellow",
+    "shortAnswer": "重大違規事件發生時，學校應通知家長，並依家庭教育相關規定評估提供家庭教育諮商或輔導。",
+    "keywords": [
+      "重大違規",
+      "家庭教育",
+      "家庭輔導",
+      "家長輔導"
+    ],
+    "principles": [],
+    "canDo": [
+      "通知家長並掌握家庭現況",
+      "依需要規劃家庭教育、訪視、諮詢或輔導"
+    ],
+    "avoid": [
+      "只做懲處而完全不處理家庭支持需求"
+    ],
+    "alternatives": [
+      "由導師、輔導與家庭教育資源共同合作"
+    ],
+    "reason": "家庭教育法及高級中等以下學校提供家庭教育諮商或輔導辦法建立重大違規後的家庭支持。",
+    "sources": [
+      {
+        "authority": "教育部",
+        "document": "高級中等以下學校提供家庭教育諮商或輔導辦法",
+        "section": "第3至8條",
+        "url": "https://edu.law.moe.gov.tw/LawContent.aspx?id=FL031315",
         "lastVerified": "2026-09-18"
       }
     ]
